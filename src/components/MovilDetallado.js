@@ -1,4 +1,5 @@
 import { Lato } from "next/font/google";
+import Link from "next/link";
 
 const fontLato = Lato({
   subsets: ["latin"],
@@ -11,6 +12,7 @@ export default function MovilDetallado({
   descripcion,
   productoAmazon,
   precio,
+  linkProductoAmazon,
 }) {
   return (
     <div className="mt-5">
@@ -31,9 +33,11 @@ export default function MovilDetallado({
               />
             </div>
             <div className="sm:absolute sm:top-20 md:top-12 lg:top-12 xl:top-12">
-              <button className="text-sm mt-3 bg-yellow-300 rounded-lg p-1 px-2 transition-all hover:bg-yellow-400">
+              <a href={linkProductoAmazon} target="_blank">
+              <button className="text-sm mt-3 bg-[#FFD814] rounded-lg p-1 px-2 transition-all hover:bg-[#F7CA00]">
                 Precio en Amazon - <strong>{precio}</strong>
               </button>
+              </a>
               <p className="text-xs mt-3 text-gray-500">
                 * Algún precio puede haber cambiado desde la última revisión
               </p>

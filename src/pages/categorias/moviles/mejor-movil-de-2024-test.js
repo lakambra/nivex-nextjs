@@ -57,7 +57,8 @@ export default function MejorMovilDe2024() {
             imagen="https://i.blogs.es/cdb3d2/pixel/1366_2000.webp"
             descripcion="El Google Pixel 7a es el móvil más barato de Google en 2024, pero no por ello es un mal móvil. Es un móvil compacto, con un diseño sencillo y elegante, y una cámara que destaca por su calidad. Además, es un móvil con Android puro, lo que garantiza actualizaciones rápidas y un rendimiento fluido."
             productoAmazon="Google Pixel 7a - Smartphone 5G Android Libre con Lente Gran Angular y batería de 24 Horas de duración - Azul Claro"
-            precio="379€"
+            precio="372,60"
+            linkProductoAmazon="https://www.amazon.es/Google-Pixel-7a-Smartphone-duraci%C3%B3n/dp/B0BZJK1ZTY/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KYZB89PE4LIX&dib=eyJ2IjoiMSJ9.YpAYbuxcbEaeYqPuWtGshQMDKcRT3WDAoGdFIXkuun0cDqfycKs6Mn7emRXul8wCz9kDcF1NOXXSdNOAwDMQXSlMs1CRz2fNd5c0UTrpaTGdIGJCrt07c3K5pJhz7IouZLK-plAXjB_ppj-kaDVGl0g31kqwKtZrlKk13ck3kUGbRh1d7wUSjhuAGgZmDVOs7IRFhfmVkWIuyIe29SUDsoZ5j88S51JGgLRixLxMvDMCZcsAjZVGPE40CFFPL4uuIy_Fbd-gouzLjYeT2GydwwVmcaowOir8apY6dfpveO8.fj3LWfUrlBx11UsKO9kjAKqe8jdIJsaWr_faf6_z6v8&dib_tag=se&keywords=google+pixel+7&qid=1726953911&s=electronics&sprefix=google+pixel+7a%2Celectronics%2C123&sr=1-1&ufe=app_do%3Aamzn1.fos.0fd54328-1d46-4534-bd0f-16141b40bb5b"
           />
         </div>
       </main>
