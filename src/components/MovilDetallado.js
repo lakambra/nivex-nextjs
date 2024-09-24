@@ -15,36 +15,30 @@ export default function MovilDetallado({
   linkProductoAmazon,
 }) {
   return (
-    <div className="mt-5">
+    <div className="mb-10">
       <h3 className="text-2xl font-extrabold mb-5">{producto}</h3>
       <img src={imagen} alt={producto} className="md:max-w-lg mx-auto" />
-      <div className={fontLato.className}>
+      <div className={`${fontLato.className} mb-10`}>
         <p className="mt-5 text-lg sm:text-xl 2xl:text-xl">{descripcion}</p>
       </div>
-      <div className="mt-5 border-t-2 border-b-2 pt-5 pb-5 sm:pb-10 md:pb-5">
-        <div className="flex items-center sm:max-w-lg md:max-w-xl xl:max-w-2xl mx-auto">
-          <div className="relative">
-            <div className="flex flex-row">
-              <h4 className="font-bold text-base">{productoAmazon}</h4>
-              <img
-                className="size-16 mr-2 mt-4 sm:size-28 2xl:mr-12"
-                src={imagen}
-                alt={producto}
-              />
-            </div>
-            <div className="sm:absolute sm:top-20 md:top-12 lg:top-12 xl:top-12">
-              <a href={linkProductoAmazon} target="_blank">
-              <button className="text-sm mt-3 bg-[#FFD814] rounded-lg p-1 px-2 transition-all hover:bg-[#F7CA00]">
-                Precio en Amazon - <strong>{precio}</strong>
-              </button>
-              </a>
-              <p className="text-xs mt-3 text-gray-500">
-                * Algún precio puede haber cambiado desde la última revisión
-              </p>
-            </div>
-          </div>
+      <div className="flex flex-col m-auto max-w-2xl">
+        <div className="flex">
+          <h4 className="font-bold text-base">{productoAmazon}</h4>
+          <img
+            className="size-16 mr-2 sm:size-28 2xl:mr-12"
+            src={imagen}
+            alt={producto}
+          />
         </div>
+        <a href={linkProductoAmazon} target="_blank">
+          <button className="text-sm bg-[#FFD814] rounded-lg p-1 px-2 transition-all hover:bg-[#F7CA00]">
+            Precio en Amazon - <strong>{precio}</strong>
+          </button>
+        </a>
+        <p className="text-xs mt-3 text-gray-500">
+          * Algún precio puede haber cambiado desde la última revisión
+        </p>
       </div>
-    </div>
+    </div >
   );
 }
