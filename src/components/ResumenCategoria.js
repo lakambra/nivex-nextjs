@@ -21,28 +21,30 @@ export default function ResumenCategoria({
 }) {
   return (
     <>
-      <div className="md:flex md:flex-col flex flex-column justify-center items-center">
+      <div className="flex flex-col justify-center flex flex-column justify-center items-center w-72 min-h-96">
         <Link href={linkExterno}>
           <img
             src={imagen}
-            className="w-40 h-40 object-cover object-center md:max-w-5xl "
+            className="w-40 h-40 object-cover object-center max-w-5xl "
           />
         </Link>
-        <div className="md:flex md:flex-col md:justify-center">
+        <div className="flex flex-col justify-center items-center">
           <Link href={linkInterno} className={fontJet.className}>
-            <p className="text-xs font-bold pt-5 md:mb-2 inline-block relative text-black no-underline transition-all duration-[0.3s] ease-in-out after:content-normal after:absolute after:w-full after:h-0.5 after:bg-black after:origin-bottom-right after:transition-transform after:duration-[0.25s] after:ease-[ease-out] after:scale-x-0 after:left-0 after:bottom-0 hover:after:origin-bottom-left hover:after:scale-x-100">
+            <p className="text-xs font-bold pt-5 mb-2 inline-block relative text-black no-underline transition-all duration-[0.3s] ease-in-out after:content-normal after:absolute after:w-full after:h-0.5 after:bg-black after:origin-bottom-right after:transition-transform after:duration-[0.25s] after:ease-[ease-out] after:scale-x-0 after:left-0 after:bottom-0 hover:after:origin-bottom-left hover:after:scale-x-100">
               {categoria}
             </p>
           </Link>
           <Link href={linkExterno} className={fontOswald.className}>
-            <h2 className="text-xl 2xl:text-3xl font-extrabold tracking-wide hover:underline">
+            <h2 className="text-xl font-extrabold tracking-wide hover:underline text-center">
               {titulo}
             </h2>
           </Link>
           <hr className="w-20 border-b-[1px] border-b-blue-700 mt-2 mb-5 lg:mt-4"></hr>
-          <h3 className="text-lg">
-            <Link href={linkExterno}>{descripcion}</Link>
-          </h3>
+          <Link href={linkExterno}>
+            <h3 className="text-lg text-center">
+              {descripcion}
+            </h3>
+          </Link>
         </div>
       </div>
     </>
