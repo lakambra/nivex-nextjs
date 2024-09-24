@@ -49,6 +49,22 @@ export default function Moviles() {
             descripcion="Descubre los últimos modelos de móviles plegables que combinan innovación y diseño. Desde el Galaxy Z Fold 4 hasta el nuevo Motorola Razr, te mostramos los dispositivos más innovadores del año."
             imagen="https://unaysahbd.com/wp-content/uploads/2024/08/Post_Template_12.webp"
           />
+          <ResumenCategoriaGrande
+            titulo="Cómo elegir el mejor móvil según tu presupuesto"
+            linkInterno="/guias/moviles"
+            linkExterno="/guias/moviles/como-elegir-el-mejor-movil"
+            categoria="MÓVILES"
+            descripcion="Descubre cómo seleccionar el móvil ideal ajustado a tu presupuesto. Comparamos opciones de gama baja, media y alta para que encuentres el dispositivo perfecto sin gastar de más."
+            imagen="https://files.oaiusercontent.com/file-qH3bfXycc5B5Yq2i8HmYnxE2?se=2024-09-24T09%3A33%3A55Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D934cbda9-d588-4833-a86e-f2a8a24af5c1.webp&sig=zs9trxWdCHBECxbRgsXH%2BLSWC1EhvKHjqrv12%2BmdSPI%3D"
+          />
+          <ResumenCategoriaGrande
+            titulo="Mejores móviles calidad-precio en 2024"
+            linkInterno="/categorias/moviles"
+            linkExterno="/categorias/moviles/mejores-moviles-calidad-precio-2024"
+            categoria="MÓVILES"
+            descripcion="Encuentra los móviles con la mejor relación calidad-precio del año. Te mostramos las opciones más equilibradas en rendimiento, cámara y batería sin gastar una fortuna."
+            imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3QylVysvzo8zZhpgacsvipNe8EUPZX982FQ&s"
+          />
         </div>
       </main>
     </>
