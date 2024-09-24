@@ -21,7 +21,7 @@ export default function ResumenCategoria({
 }) {
     return (
         <>
-            <div className="justify-evenly flex items-center flex-wrap pb-10">
+            <div className="justify-evenly flex items-center flex-wrap py-10">
                 <Link href={linkExterno}>
                     <img
                         src={imagen}

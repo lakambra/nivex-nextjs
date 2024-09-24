@@ -48,6 +48,14 @@ export default function Televisiones() {
             descripcion="Las últimas Smart TVs llegan con inteligencia artificial avanzada y resoluciones 8K impresionantes. Descubre lo último de LG, Sony y Samsung para disfrutar de una experiencia visual inigualable."
             imagen="https://www.ultrontechnology.es/wp-content/uploads/2024/08/dd2697de-136e-4398-93a7-bed6bf10a354.png"
           />
+          <ResumenCategoriaGrande
+            titulo="Los 5 factores clave para comprar un buen televisor"
+            linkInterno="/guias/televisiones"
+            linkExterno="/guias/televisiones/como-elegir-un-televisor"
+            categoria="TELEVISIONES"
+            descripcion="Conoce qué aspectos son esenciales al comprar un televisor: resolución, tamaño, tipo de panel y más. Una guía rápida para encontrar la pantalla ideal para tu hogar."
+            imagen="https://files.oaiusercontent.com/file-eGMViOAaxJf4EKugE2lY78ws?se=2024-09-24T09%3A34%3A02Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dfe4784ef-9ec8-423a-b03b-efcaf2e4f555.webp&sig=NlEPv0nL43/ZH/YSNHNS/zw5x2E4uEwwzreq75XA4lI%3D"
+          />
         </div>
       </main>
     </>
