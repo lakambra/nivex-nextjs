@@ -34,18 +34,18 @@ export default function mejoresTV2024() {
           </h1>
           <p className="font-bold mt-6 lg:text-lg">
             Hay televisores en todos los precios imaginables: desde menos
-             de 200 euros hasta por encima de los 900 euros, enfocados a 
-             públicos distintos. No importa tu presupuesto: si en algo 
-             nos ponemos todos de acuerdo es en buscar los televisores 
-             que nos ofrecen más de lo que cuestan, aquellos con la mejor 
-             relación calidad-precio.
+            de 200 euros hasta por encima de los 900 euros, enfocados a
+            públicos distintos. No importa tu presupuesto: si en algo
+            nos ponemos todos de acuerdo es en buscar los televisores
+            que nos ofrecen más de lo que cuestan, aquellos con la mejor
+            relación calidad-precio.
           </p>
         </div>
         <img
           src="https://images.samsung.com/is/image/samsung/latin_UN55KU6500FXZA_001_Front_black?$624_624_PNG$"
           className="mt-10 px-5 xl:max-w-5xl xl:mx-auto"
         />
-        <p className="px-5 mt-10 font-bold xl:max-w-5xl xl:mx-auto xl:text-lg">
+        <p className="px-5 mt-10 font-bold xl:max-w-5xl xl:mx-auto xl:text-lg mb-5">
           Un año más, buscamos los televisores con la mejor relación calidad-precio de este 2024, enfocándonos en aquellos modelos que maximizan el rendimiento dentro de su rango de precio. Incluiremos en nuestra lista los televisores disponibles este año, aunque hayan sido lanzados con anterioridad.
         </p>
         <div className="px-5 xl:max-w-5xl xl:mx-auto">
