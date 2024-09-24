@@ -21,7 +21,7 @@ export default function ResumenCategoria({
 }) {
   return (
     <>
-      <div className="flex flex-col justify-center flex flex-column justify-center items-center w-72 min-h-96">
+      <div className="flex flex-col justify-center flex flex-column justify-center items-center w-72 ">
         <Link href={linkExterno}>
           <img
             src={imagen}

@@ -83,7 +83,44 @@ export default function Home() {
 
         </div>
 
-        <Titulo texto=""></Titulo>
+        <Titulo texto="Ultimos lanzamientos" />
+        <div className="mt-16 px-5 sm:mx-auto md:items-start md:max-w-7xl flex flex-wrap justify-evenly pb-7">
+          <ResumenCategoria
+            titulo="Los nuevos plegables que revolucionan el mercado en 2024"
+            linkInterno="/categorias/moviles"
+            linkExterno="/categorias/moviles/novedades-2024"
+            categoria="MÓVILES"
+            descripcion="Descubre los últimos modelos de móviles plegables que combinan innovación y diseño. Desde el Galaxy Z Fold 4 hasta el nuevo Motorola Razr, te mostramos los dispositivos más innovadores del año."
+            imagen="https://unaysahbd.com/wp-content/uploads/2024/08/Post_Template_12.webp"
+          />
+
+          <ResumenCategoria
+            titulo="Nuevas Smart TVs con inteligencia artificial y 8K"
+            linkInterno="/categorias/televisiones"
+            linkExterno="/categorias/televisiones/nuevas-smart-tv-2024"
+            categoria="TELEVISIONES"
+            descripcion="Las últimas Smart TVs llegan con inteligencia artificial avanzada y resoluciones 8K impresionantes. Descubre lo último de LG, Sony y Samsung para disfrutar de una experiencia visual inigualable."
+            imagen="https://www.ultrontechnology.es/wp-content/uploads/2024/08/dd2697de-136e-4398-93a7-bed6bf10a354.png"
+          />
+
+          <ResumenCategoria
+            titulo="Los últimos smartwatches para fitness y salud"
+            linkInterno="/categorias/wearables"
+            linkExterno="/categorias/wearables/nuevos-smartwatches-2024"
+            categoria="WEARABLES"
+            descripcion="Nuevas generaciones de smartwatches con sensores avanzados para el monitoreo de la salud y el fitness. Apple, Garmin y Fitbit presentan sus últimos modelos con mejoras significativas."
+            imagen="https://joyeriacarla.com/wp-content/uploads/2024/04/a34fbf0db158450c6f065f3304d98170a9505a0f-2000x2000-1000.webp"
+          />
+
+          <ResumenCategoria
+            titulo="Las nuevas tablets ultra potentes de 2024"
+            linkInterno="/categorias/tablets"
+            linkExterno="/categorias/tablets/nuevas-tablets-2024"
+            categoria="TABLETS"
+            descripcion="Las últimas tablets llegan con procesadores de alta potencia y pantallas mejoradas para productividad y entretenimiento. Descubre lo nuevo de Apple, Samsung y Lenovo para este año."
+            imagen="https://www.yaphone.com/5836-large_default/tablet-samsung-galaxy-tab-s9-fe.jpg"
+          />
+        </div>
 
 
 
