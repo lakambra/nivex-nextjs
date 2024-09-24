@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Head from "next/head";
 import ResumenCategoria from "@/components/ResumenCategoria";
 import { JetBrains_Mono } from "next/font/google";
+import Titulo from "@/components/Titulo";
 
 const fontJet = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -25,12 +26,8 @@ export default function Home() {
 
       <Header />
       <main className="mt-16">
-        <div
-          className={`${fontJet.className} flex justify-center border-b-2 border-t-2 border-gray-100 py-4 mx-5 tracking-wide font-bold`}
-        >
-          LO MÁS VISTO
-        </div>
-        <div className="mt-16 px-5 sm:mx-auto md:items-center md:max-w-7xl flex">
+        <Titulo texto="LO MÁS VISTO" />
+        <div className="mt-16 px-5 sm:mx-auto md:items-start md:max-w-7xl flex flex-wrap justify-evenly pb-7">
           <ResumenCategoria
             titulo="Los mejores móviles que puedes comprar en 2024"
             linkInterno="/categorias/moviles"
@@ -83,14 +80,10 @@ export default function Home() {
             descripcion="Mantente conectado con los wearables más avanzados del mercado. Desde los Apple Watch hasta los Galaxy Watch, descubre los dispositivos que mejoran tu salud, fitness y estilo."
             imagen="https://www.wivai.com/on/demandware.static/-/Sites-promocaixa-m-catalog/default/dw4b369b19/deporteyocio/Garmin/121-4004953/GarminEPIX2_FrontA_600x600.png"
           />
-          <button id="arrowLeft" className="w-7 h-7 absolute">
-            <img className="" src="https://cdn-icons-png.flaticon.com/512/271/271220.png" />
-          </button>
-          <button id="arrowRight" className="w-7 h-7 absolute left-">
-            <img className="" src="https://cdn-icons-png.flaticon.com/512/32/32213.png" />
-          </button>
 
         </div>
+
+        <Titulo texto=""></Titulo>
 
 
 
