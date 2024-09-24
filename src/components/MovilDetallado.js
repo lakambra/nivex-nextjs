@@ -17,7 +17,7 @@ export default function MovilDetallado({
   return (
     <div className="mb-10">
       <h3 className="text-2xl font-extrabold mb-5">{producto}</h3>
-      <img src={imagen} alt={producto} className="md:max-w-lg mx-auto" />
+      <img src={imagen} alt={producto} className=" mx-auto w-1/4" />
       <div className={`${fontLato.className} mb-10`}>
         <p className="mt-5 text-lg sm:text-xl 2xl:text-xl">{descripcion}</p>
       </div>
