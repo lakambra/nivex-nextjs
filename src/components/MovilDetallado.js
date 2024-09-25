@@ -25,7 +25,7 @@ export default function MovilDetallado({
         <div className="flex">
           <h4 className="font-bold text-base">{productoAmazon}</h4>
           <img
-            className="size-16 mr-2 sm:size-28 2xl:mr-12"
+            className="size-16 mr-2 sm:size-28 2xl:mr-12 ml-4"
             src={imagen}
             alt={producto}
           />

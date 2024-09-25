@@ -1,0 +1,138 @@
+{
+    "moviles": {
+        "topGama": [
+            {
+                "producto": "Samsung Galaxy S24 Ultra",
+                "imagen": "https://m.media-amazon.com/images/I/71-7uaiy9dL.__AC_SX300_SY300_QL70_ML2_.jpg",
+                "descripcion": "El Samsung Galaxy S24 Ultra es el último buque insignia de la marca surcoreana. Con su pantalla Dynamic AMOLED 2x de 6,8 pulgadas, cámara principal de 200 MP y procesador Snapdragon 8 Gen 3, es el móvil ideal para quienes buscan lo mejor en rendimiento y calidad fotográfica. Además, cuenta con una batería de 5000 mAh que garantiza una larga duración.",
+                "productoAmazon": "Samsung Galaxy S24 Ultra y Cargador 45W, Teléfono Móvil con IA, Smartphone Android, 12 GB RAM, 256 GB Almacenamiento, Cámara 200MP, S Pen, Batería Larga Duración, Gris Titanium (Versión Española)",
+                "precio": "1.049,00€",
+                "linkProductoAmazon": "https://amzn.to/4gARHGq"
+            },
+            {
+                "producto": "iPhone 16 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/61rObEraFTL._AC_SX466_.jpg",
+                "descripcion": "El iPhone 16 Pro sigue la tradición de excelencia de Apple. Con el nuevo procesador A17 Pro y una cámara mejorada, se convierte en una opción sólida para los usuarios de iOS. Su diseño elegante y su potente rendimiento lo convierten en una de las mejores opciones del año.",
+                "productoAmazon": "Apple iPhone 16 Pro de 1 TB: Smartphone 5G con Control de Cámara, grabación en 4K a 120 f/s con Dolby Vision y un Gran Salto en autonomía. Compatible con los AirPods; Titanio Color Desierto",
+                "precio": "1.849,00€",
+                "linkProductoAmazon": "https://amzn.to/4gEJCRe"
+            },
+            {
+                "producto": "Google Pixel 9 Pro XL",
+                "imagen": "https://m.media-amazon.com/images/I/51qm+c9rY6L._AC_SX679_.jpg",
+                "descripcion": "El Google Pixel 9 Pro XL destaca por su excelente calidad de pantalla y sonido. Equipado con Android puro y una cámara que compite con los mejores del mercado, es una opción ideal para los amantes de la fotografía y la simplicidad en el sistema operativo.",
+                "productoAmazon": "Google Pixel 9 Pro XL - Smartphone Android Desbloqueado con Gemini, Sistema de cámara Trasera Triple, batería con una autonomía de 24 Horas y Pantalla Super Actua de 6,8 - Obsidiana, 128GB",
+                "precio": "1.199,00€",
+                "linkProductoAmazon": "https://amzn.to/4efw113"
+            },
+            {
+                "producto": "Honor Magic6 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/5102LGjw8-L._AC_SX569_.jpg",
+                "descripcion": "El Honor Magic6 Pro ofrece una duración de batería impresionante y un sistema de cámaras que finalmente cumple con las expectativas. Es un móvil equilibrado en rendimiento, fotografía y autonomía, ideal para quienes buscan calidad a un precio razonable.",
+                "productoAmazon": "HONOR Magic6 Pro Smartphone 5G 12GB+512GB Teléfono Móvil 6.80 120Hz 50MP Triple Cámara 180MP Cámara Teleobjetivo Qualcomm Snapdragon 8Gen 5500mAh 66W IP68 NFC Dual SIM (Verde)",
+                "precio": "849,00€",
+                "linkProductoAmazon": "https://amzn.to/4gDhWMf"
+            },
+            {
+                "producto": "Xiaomi 14 Ultra",
+                "imagen": "https://m.media-amazon.com/images/I/51XJHAjKJmL._AC_SX679_.jpg",
+                "descripcion": "El Xiaomi 14 Ultra se destaca como uno de los mejores smartphones del año, con su pantalla AMOLED de 6,8 pulgadas y resolución WQHD+. Equipado con el último procesador Snapdragon 8 Gen 3, ofrece un rendimiento superior. Su sistema de cámaras Leica con un sensor principal de 50 MP lo convierte en una opción ideal para los amantes de la fotografía.",
+                "productoAmazon": "Xiaomi 14 Ultra - Smartphone de 16+512 GB, Lentes Leica Summilux, Snapdragon 8 Gen 3, Pantalla AMOLED 6.73'' 120Hz, HyperCharge 90W, Blanco (Versión ES)",
+                "precio": "1.199,90€",
+                "linkProductoAmazon": "https://amzn.to/4gzRX8D"
+            },
+            {
+                "producto": "OPPO Find X5 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/914wwsrPVoL._AC_SX569_.jpg",
+                "descripcion": "El OPPO Find X5 Pro es una excelente opción para quienes buscan un móvil con altas prestaciones a un precio competitivo. Su pantalla QHD+ de 6,7 pulgadas y cámaras desarrolladas en colaboración con Hasselblad lo convierten en un digno competidor en la gama alta.",
+                "productoAmazon": "Oppo Find X5 Pro 5G - Smartphone 256GB, 12GB RAM, Dual Sim, White",
+                "precio": "1.208,62€",
+                "linkProductoAmazon": "https://amzn.to/3XGh5SA"
+            }
+        ],
+        "calidadPrecio": [
+            {
+                "producto": "Xiaomi Redmi Note 13 4G",
+                "imagen": "https://m.media-amazon.com/images/I/61sab12r6ML._AC_SX679_.jpg",
+                "descripcion": "El Xiaomi Redmi Note 13 4G ofrece un excelente equilibrio entre rendimiento y precio. Con una pantalla AMOLED de 6,67 pulgadas y una tasa de refresco de 120 Hz, ofrece una experiencia visual fluida. Su procesador Snapdragon 685 y batería de 5000 mAh lo convierten en una gran opción para el día a día.",
+                "productoAmazon": "Redmi Note 13 Midnight Black 8GB RAM 256GB ROM",
+                "precio": "160,00€",
+                "linkProductoAmazon": "https://amzn.to/3N02AUO"
+            },
+            {
+                "producto": "POCO X6 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/515XVm4aUQL._AC_SX569_.jpg",
+                "descripcion": "El POCO X6 Pro es perfecto para los usuarios que buscan potencia y buena pantalla. Equipado con un procesador MediaTek Dimensity 8300 Ultra, una batería de 5000 mAh y carga rápida de 67W, es ideal para jugar y consumir contenido multimedia sin compromisos.",
+                "productoAmazon": "POCO X6 Pro 5G Grey 8GB RAM 256GB ROM",
+                "precio": "262,98€",
+                "linkProductoAmazon": "https://amzn.to/3XCtzKQ"
+            },
+            {
+                "producto": "Google Pixel 8a",
+                "imagen": "https://m.media-amazon.com/images/I/71JTIdBUvYL._AC_SX679_.jpg",
+                "descripcion": "El Google Pixel 8a combina un excelente rendimiento y cámaras de alta calidad con un precio accesible. Con su pantalla OLED de 6,1 pulgadas y su procesador Google Tensor G3, ofrece una experiencia fluida. Además, su cámara principal de 64 MP destaca en su segmento.",
+                "productoAmazon": "Google Pixel 8a - Smartphone Android Libre con Cámara Pixel Avanzada, batería de 24 Horas de duración y potentes Funciones de Seguridad - Obsidiana, 128GB",
+                "precio": "445,00€",
+                "linkProductoAmazon": "https://amzn.to/3zk9Szy"
+            },
+            {
+                "producto": "OnePlus 12R",
+                "imagen": "https://m.media-amazon.com/images/I/61mzzhm7d9L._AC_SX569_.jpg",
+                "descripcion": "El OnePlus 12R ofrece un diseño elegante y un rendimiento excepcional. Con un procesador Snapdragon 8 Gen 2 y una batería de 5500 mAh con carga rápida de 100W, es una opción ideal para quienes buscan un dispositivo equilibrado con una gran autonomía.",
+                "productoAmazon": "OnePlus 12R, Dual, 256Gb 16Gb Ram, Cool Blue.",
+                "precio": "592,79€",
+                "linkProductoAmazon": "https://amzn.to/4gEfZzh"
+            },
+            {
+                "producto": "Nothing Phone (2)",
+                "imagen": "https://m.media-amazon.com/images/I/61oycK5i7qL._AC_SX679_.jpg",
+                "descripcion": "El Nothing Phone (2) se destaca por su diseño único y su excelente rendimiento. Equipado con un procesador Snapdragon 8+ Gen 1, pantalla LTPO OLED de 6,7 pulgadas y una batería de 4700 mAh con carga rápida en 55 minutos, es una opción atractiva para quienes buscan un smartphone que combine estilo y funcionalidad.",
+                "productoAmazon": "Nothing Phone (2a) 12+256GB - Smartphone con Nothing OS 2.5 - Negro",
+                "precio": "367,00€",
+                "linkProductoAmazon": "https://amzn.to/4eUjkJ5"
+            }
+        ],
+        "plegables": [
+            {
+                "producto": "Samsung Galaxy Z Fold 5",
+                "imagen": "https://m.media-amazon.com/images/I/61bvUwXdgKL._AC_SX679_.jpg",
+                "descripcion": "El Samsung Galaxy Z Fold 5 es ideal para usuarios expertos que buscan una pantalla grande y multifuncional. Con una pantalla interna de 7,6 pulgadas y una externa de 6,2 pulgadas, ofrece un rendimiento excelente gracias a su procesador Snapdragon 8 Gen 2 y 12 GB de RAM. Además, es compatible con el S Pen y cuenta con funciones adicionales como Samsung DeX.",
+                "productoAmazon": "Samsung Galaxy Z Fold5, 512 GB + Cargador 45W - Teléfono Móvil Plegable con IA, Smartphone Android Libre, 12GB de RAM, Cámara de Alta Resolución, Negro (Versión Española)",
+                "precio": "1.249,97€",
+                "linkProducto": "https://amzn.to/3Bi6llO"
+            },
+            {
+                "producto": "Motorola Razr 40 Ultra",
+                "imagen": "https://m.media-amazon.com/images/I/81YWi9HWkiL._AC_SX679_.jpg",
+                "descripcion": "El Motorola Razr 40 Ultra destaca por su diseño compacto y su pantalla externa de 4 pulgadas, la más grande en un plegable de este tipo. Ofrece un rendimiento potente con su procesador Snapdragon 8s Gen 3 y 12 GB de RAM. Es una opción atractiva para quienes buscan un dispositivo elegante y funcional con un toque nostálgico.",
+                "productoAmazon": "Motorola Razr 40 Ultra Teléfono Inteligente, 8/256Gb, Procesador Snapdragon 8+ Gen1, Plegable, Cámara Flex View, Batería 3800 Mah, Carga Rápida de 33 W, Dual Sim/Esim, Peach Fuzz, Versión ES y PT",
+                "precio": "553,12€",
+                "linkProducto": "https://amzn.to/3BsOt7F"
+            },
+            {
+                "producto": "Samsung Galaxy Z Flip6",
+                "imagen": "https://m.media-amazon.com/images/I/51pRT1kbpBL._AC_SX679_.jpg",
+                "descripcion": "El Galaxy Z Flip6 es ideal para quienes buscan un plegable que ocupe poco espacio. Equipado con un procesador Snapdragon 8 Gen 3 y 12 GB de RAM, ofrece un buen rendimiento en tareas diarias y multimedia. Su batería de 4.000 mAh con carga rápida de 25W es suficiente para un uso moderado.",
+                "productoAmazon": "Smartphone SAMSUNG Galaxy Z Flip6 Azul 256 GB",
+                "precio": "783,00€",
+                "linkProducto": "https://amzn.to/4eye25C"
+            },
+            {
+                "producto": "Huawei Mate Xs 2",
+                "imagen": "https://m.media-amazon.com/images/I/41gMzuycR2L._AC_.jpg",
+                "descripcion": "El Huawei Mate Xs 2 ofrece una gran pantalla plegable y una batería de 4.600 mAh con carga rápida de 66W, que se carga en poco más de media hora. Es ideal para aquellos que buscan una experiencia de pantalla grande en un formato plegable.",
+                "productoAmazon": "HUAWEI Smartphone Mate XS 2 PAL-LX9 512GB 4G LTE Dual SIM Negro, 8 GB RAM, cámara triple de 50 MP, pantalla plegable True-Chroma 7.8/6.5 pulgadas",
+                "precio": "1.999,99€",
+                "linkProducto": "https://amzn.to/4doneZg"
+            },
+            {
+                "producto": "OPPO Find N2 Flip",
+                "imagen": "https://m.media-amazon.com/images/I/613JrPLeDhL._AC_SX679_.jpg",
+                "descripcion": "El OPPO Find N2 Flip tiene una pantalla externa pequeña, pero su pantalla interna AMOLED de 6,8 pulgadas y su cámara frontal de 32 MP lo convierten en una opción interesante. Su procesador Dimensity 9000+ y batería de 4.300 mAh con carga rápida de 44W lo hacen ideal para quienes buscan un plegable a un precio más contenido.",
+                "productoAmazon": "OPPO Find N2 Flip, Teléfono móvil Plegable, 8GB+256GB, Cámara 50+8 MP, Pantalla Externa Gigante, Batería 4300mAh, Cargá Rápida SuperVOOC 44W, Dual Nano SIM – Negro",
+                "precio": "899,99€",
+                "linkProducto": "https://amzn.to/4ecWXOQ"
+            }
+        ]
+    }
+}
