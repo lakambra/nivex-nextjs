@@ -217,5 +217,65 @@
                 ]
             }
         ]
+    },
+    "televisiones": {
+        "topGama": [
+            {
+                "producto": "Sony Bravia 9",
+                "imagen": "https://m.media-amazon.com/images/I/81Xkl2NNOwL._AC_SL1500_.jpg",
+                "descripcion": "El Sony Bravia 9 ofrece un rendimiento espectacular con tecnología Mini LED y más de 2800 zonas de atenuación, alcanzando picos de brillo de 2800 nits. Su procesador XR garantiza el mejor procesamiento de imagen, haciéndolo ideal para videojuegos y cine en casa.",
+                "productoAmazon": "Sony Bravia 9, Televisor Mini LED 65 Pulgadas con HDR y Dolby Vision",
+                "precio": "2.499,00€",
+                "linkProductoAmazon": "https://amzn.to/3X7T3kp"
+            },
+            {
+                "producto": "LG OLED C4",
+                "imagen": "https://m.media-amazon.com/images/I/61i27xUENbL._AC_SL1200_.jpg",
+                "descripcion": "La LG OLED C4 cuenta con un panel OLED EVO de última generación, con un brillo mejorado de hasta 1000 nits. Su soporte para Dolby Vision, HDR10+, y compatibilidad con HDMI 2.1 y 4K a 144 Hz la hacen ideal para gaming y entretenimiento.",
+                "productoAmazon": "LG OLED C4, Televisor OLED 55 Pulgadas con Dolby Vision, HDR10+ y HDMI 2.1",
+                "precio": "1.799,00€",
+                "linkProductoAmazon": "https://amzn.to/3X5YUOe"
+            },
+            {
+                "producto": "Samsung S90D",
+                "imagen": "https://m.media-amazon.com/images/I/71P4A2UKuML._AC_SL1500_.jpg",
+                "descripcion": "El Samsung S90D combina tecnología OLED con un brillo de 1000 nits y soporte para HDR10+. Ofrece HDMI 2.1 y 4K a 144 Hz, siendo una opción excelente para jugadores que buscan una experiencia sin problemas de quemados o retenciones.",
+                "productoAmazon": "Samsung S90D, Televisor OLED 65 Pulgadas 4K con HDR10+ y HDMI 2.1",
+                "precio": "2.199,00€",
+                "linkProductoAmazon": "https://amzn.to/3G74MvT"
+            },
+            {
+                "producto": "TCL C855",
+                "imagen": "https://m.media-amazon.com/images/I/71crN7yR+OL._AC_SL1500_.jpg",
+                "descripcion": "El TCL C855 destaca por su panel VA con tecnología Mini LED y Full Array Local Dimming. Con un brillo de 2200 nits y compatibilidad con todos los formatos HDR, es una opción ideal para quienes buscan calidad a buen precio.",
+                "productoAmazon": "TCL C855, Televisor Mini LED 65 Pulgadas con HDR10+ y Dolby Vision",
+                "precio": "1.299,00€",
+                "linkProductoAmazon": "https://amzn.to/3X5JHTx"
+            },
+            {
+                "producto": "Hisense U8NQ",
+                "imagen": "https://m.media-amazon.com/images/I/81xOAZxUvML._AC_SL1500_.jpg",
+                "descripcion": "El Hisense U8NQ cuenta con tecnología Mini LED, 1600 zonas de atenuación y un pico de brillo de 2800 nits. Con su sistema de supresión de blooming y compatibilidad con HDR10+ y Dolby Vision, es ideal para usuarios exigentes.",
+                "productoAmazon": "Hisense U8NQ, Televisor Mini LED 65 Pulgadas con HDR10+ y Dolby Vision",
+                "precio": "1.399,00€",
+                "linkProductoAmazon": "https://amzn.to/3F8HXpQ"
+            },
+            {
+                "producto": "LG G3 OLED",
+                "imagen": "https://m.media-amazon.com/images/I/81ZZfVxUE0L._AC_SL1500_.jpg",
+                "descripcion": "El LG G3 OLED utiliza la tecnología OLED MLA, ofreciendo mayor eficiencia energética y brillo. Con soporte para Dolby Vision y HDR10+, y compatibilidad con HDMI 2.1, es el modelo más avanzado de LG para 2024.",
+                "productoAmazon": "LG G3 OLED, Televisor OLED 65 Pulgadas con Dolby Vision, HDMI 2.1",
+                "precio": "3.299,00€",
+                "linkProductoAmazon": "https://amzn.to/3F6OXTg"
+            },
+            {
+                "producto": "Samsung QN900D Neo QLED 8K",
+                "imagen": "https://m.media-amazon.com/images/I/91Vxfh+aP1L._AC_SL1500_.jpg",
+                "descripcion": "Este televisor 8K de Samsung utiliza tecnología Neo QLED con Mini LED para ofrecer una calidad de imagen impresionante y un brillo máximo de 5000 nits. Ideal para pantallas grandes y experiencia de cine en casa.",
+                "productoAmazon": "Samsung QN900D, Televisor Neo QLED 8K de 75 Pulgadas con HDR10+",
+                "precio": "4.999,00€",
+                "linkProductoAmazon": "https://amzn.to/3F8PQkZ"
+            }
+        ]
     }
 }
