@@ -21,7 +21,7 @@ export default function ResumenCategoria({
 }) {
   return (
     <>
-      <div className="flex flex-col justify-center flex flex-column justify-center items-center w-80 mb-5">
+      <div className="flex-col flex justify-center items-center w-96 mb-7 px-5">
         <Link href={linkExterno} className="w-full">
           <img
             src={imagen}
@@ -35,13 +35,13 @@ export default function ResumenCategoria({
             </p>
           </Link>
           <Link href={linkExterno} className={fontOswald.className}>
-            <h2 className="text-xl font-extrabold tracking-wide hover:underline text-justify">
+            <h2 className="text-xl font-extrabold tracking-wide hover:underline ">
               {titulo}
             </h2>
           </Link>
           <hr className="w-20 border-b-[1px] border-b-blue-700 mt-2 mb-5 lg:mt-4 "></hr>
           <Link href={linkExterno}>
-            <h3 className="text-lg text-justify">
+            <h3 className="text-base">
               {descripcion}
             </h3>
           </Link>
