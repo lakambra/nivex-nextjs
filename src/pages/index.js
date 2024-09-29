@@ -28,7 +28,7 @@ export default function Home() {
       <Header />
       <main className="mt-16">
         <Titulo texto="LO MÁS VISTO" />
-        <div className="mt-16 px-5 sm:mx-auto md:items-start md:max-w-7xl flex flex-wrap justify-evenly pb-7">
+        <div className="mt-16 mx-auto w-4/5 items-start flex flex-wrap justify-evenly pb-10">
           {db.masVisto.map((categoria, index) => (
             <ResumenCategoria
               key={index}
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         <Titulo texto="ULTIMOS LANZAMIENTOS" />
-        <div className="mt-16 px-5 sm:mx-auto md:items-start md:max-w-7xl flex flex-wrap justify-evenly pb-7">
+        <div className="mt-16 mx-auto w-4/5 items-start flex flex-wrap justify-evenly pb-10">
           {db.ultLanzamientos.map((categoria, index) => (
             <ResumenCategoria
               key={index}
@@ -58,7 +58,7 @@ export default function Home() {
           ))}
         </div>
         <Titulo texto="GUIAS RÁPIDAS" />
-        <div className="mt-16 px-5 sm:mx-auto md:items-start md:max-w-7xl flex flex-wrap justify-evenly pb-7">
+        <div className="mt-16 mx-auto w-4/5 items-start flex flex-wrap justify-evenly pb-10">
           {db.guiasRapidas.map((categoria, index) => (
             <ResumenCategoria
               key={index}
@@ -73,7 +73,7 @@ export default function Home() {
 
         </div>
         <Titulo texto="CALIDAD-PRECIO" />
-        <div className="mt-16 px-5 sm:mx-auto md:items-start md:max-w-7xl flex flex-wrap justify-evenly pb-7">
+        <div className="mt-16 mx-auto w-4/5 items-start flex flex-wrap justify-evenly pb-10">
           {db.calidadPrecio.map((categoria, index) => (
             <ResumenCategoria
               key={index}
@@ -86,10 +86,6 @@ export default function Home() {
             />
           ))}
         </div>
-
-
-
-
       </main>
 
     </>

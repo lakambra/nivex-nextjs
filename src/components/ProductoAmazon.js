@@ -19,17 +19,17 @@ export default function ProductoAmazon({
 }) {
     return (
         <>
-            <div className="flex flex-col flex flex-column justify-center items-center w-72 ">
+            <div className="flex flex-col justify-center items-center w-72 ">
                 <img
                     src={imagen}
                     className="w-40 h-48 object-cover object-center max-w-5xl mb-5"
                 />
-                <div className="flex flex-col justify-center ">
+                <div className="flex flex-col">
                     <h2 className="text-xl font-extrabold tracking-wide hover:underline ">
                         {titulo}
                     </h2>
                     <hr className="w-20 border-b-[1px] border-b-blue-700 mt-2 mb-5 lg:mt-4"></hr>
-                    <h3 className="text-lg text- mb-5">
+                    <h3 className="text-base mb-5">
                         {descripcion}
                     </h3>
                     <a href={linkAmazon} target="_blank">

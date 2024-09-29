@@ -6,7 +6,7 @@ import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbMovil from "@/data/DBAmazon"
 import Titulo from "@/components/Titulo";
-import SubSeccion from "@/components/subSección";
+import SubSeccion from "@/components/SubSeccion";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -21,13 +21,10 @@ export default function comoelegirelmejormovil() {
             <Header />
             <main className="mt-14">
                 <Titulo texto="DEFINE TU PRESUPUESTO"></Titulo>
-                <div className="m-auto flex w-3/4 flex-col text-justify">
+                <div className="m-auto flex w-3/4 flex-col ">
                     <h2 className="font-bold mt-6 lg:text-lg">
                         Antes de elegir un móvil, es fundamental establecer un rango de precios. Esto te ayudará a filtrar las opciones y encontrar el dispositivo que mejor se adapte a tus necesidades sin exceder tu presupuesto. Ya sea que busques un móvil económico, de gama media o un tope de gama, tener un presupuesto claro te permitirá tomar una decisión más acertada y evitar gastos innecesarios.
-
                     </h2>
-
-
                     {dbMovil.moviles.secciones.map((categoria, index) => (
                         <SubSeccion
                             key={index}
