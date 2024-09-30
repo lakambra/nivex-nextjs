@@ -277,5 +277,174 @@
                 "linkProductoAmazon": "https://amzn.to/3F8PQkZ"
             }
         ]
+    },
+    "auriculares": {
+        "topGama": [
+            {
+                "producto": "Sony WH-1000XM4",
+                "imagen": "https://m.media-amazon.com/images/I/71QQqwzc9vL._AC_SL1500_.jpg",
+                "descripcion": "El Sony WH-1000XM4 es una opción de alta calidad en la gama media, ofreciendo cancelación de ruido activa, drivers de 40 mm y hasta 30 horas de autonomía. Su tecnología DSEE Extreme mejora la calidad del sonido digital.",
+                "productoAmazon": "Sony WH-1000XM4 - Auriculares inalámbricos con Cancelación de Ruido",
+                "precio": "280,00€",
+                "linkProductoAmazon": "https://amzn.to/4gD3i81"
+            },
+            {
+                "producto": "Bowers & Wilkins Pi8",
+                "imagen": "https://m.media-amazon.com/images/I/61h9AUnpvgL._AC_SL1500_.jpg",
+                "descripcion": "Estos auriculares in-ear true wireless ofrecen un sonido de alta fidelidad con cancelación de ruido activa y reproducción de audio de 24 bits. Además, incluyen un procesador DAC para mejorar la calidad del sonido.",
+                "productoAmazon": "Bowers & Wilkins Pi8 In-Ear True Wireless",
+                "precio": "399,99€",
+                "linkProductoAmazon": "https://amzn.to/3N6pRV8"
+            },
+            {
+                "producto": "Cambridge Audio Melomania P100",
+                "imagen": "https://m.media-amazon.com/images/I/61l05wly5GL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares con hasta 100 horas de batería, drivers de 40 mm y cancelación de ruido híbrida. Ideal para gamers y usuarios de contenido multimedia, con un modo de baja latencia y personalización de sonido.",
+                "productoAmazon": "Cambridge Audio Melomania P100",
+                "precio": "129,00€",
+                "linkProductoAmazon": "https://amzn.to/3Y2MDDu"
+            },
+            {
+                "producto": "LG TONE Free T90S",
+                "imagen": "https://m.media-amazon.com/images/I/61OXbN-zpxL._AC_SL1500_.jpg",
+                "descripcion": "Con sonido Dolby Atmos y tecnología Dolby Headtracking, estos auriculares brindan una experiencia de sonido espacial con cancelación de ruido activa. Ideales para un sonido envolvente.",
+                "productoAmazon": "LG TONE Free T90S",
+                "precio": "199,99€",
+                "linkProductoAmazon": "https://amzn.to/4gUF8pI"
+            },
+            {
+                "producto": "AirPods 4",
+                "imagen": "https://m.media-amazon.com/images/I/61DvMw16ITL._AC_SL1500_.jpg",
+                "descripcion": "Los AirPods 4 de Apple integran tecnología de audio espacial con seguimiento dinámico de cabeza, cancelación activa de ruido y hasta 30 horas de autonomía con el estuche de carga.",
+                "productoAmazon": "Apple AirPods 4",
+                "precio": "249,00€",
+                "linkProductoAmazon": "https://amzn.to/47MeTgU"
+            }
+        ],
+        "calidadPrecio": [
+            {
+                "producto": "Soundcore Life Q30",
+                "imagen": "https://m.media-amazon.com/images/I/61jdy45EQGL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares de diadema con cancelación de ruido activa y una impresionante autonomía de hasta 60 horas. Ofrecen excelente calidad de sonido y comodidad gracias a sus almohadillas acolchadas. Ideales para quienes buscan calidad sin gastar demasiado.",
+                "productoAmazon": "Soundcore Life Q30 Auriculares Inalámbricos",
+                "precio": "69,00€",
+                "linkProductoAmazon": "https://amzn.to/4eJehuQ"
+            },
+            {
+                "producto": "Xiaomi Redmi Buds 3",
+                "imagen": "https://m.media-amazon.com/images/I/510T147bmzL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares económicos con excelente calidad de sonido y diseño ligero. Ofrecen 5 horas de uso continuo más 15 horas adicionales con su estuche de carga. Ideales para quienes buscan un producto asequible sin sacrificar demasiado.",
+                "productoAmazon": "Xiaomi Redmi Buds 3 Auriculares Bluetooth",
+                "precio": "30,00€",
+                "linkProductoAmazon": "https://amzn.to/3TMT4rS"
+            },
+            {
+                "producto": "Sony WF-C500",
+                "imagen": "https://m.media-amazon.com/images/I/61hPCi3-71L._AC_SL1500_.jpg",
+                "descripcion": "Auriculares compactos de botón con hasta 20 horas de autonomía y buena calidad de sonido, aunque sin cancelación de ruido activa. Son ideales para quienes buscan una opción de Sony asequible y fiable.",
+                "productoAmazon": "Sony WF-C500 Auriculares Inalámbricos",
+                "precio": "52,00€",
+                "linkProductoAmazon": "https://amzn.to/4dqwXhC"
+            },
+            {
+                "producto": "CMF by Nothing Buds Pro 2",
+                "imagen": "https://m.media-amazon.com/images/I/71IuuhNmgNL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares con cancelación de ruido activa, buena autonomía (hasta 43 horas con estuche) y sonido nítido. Destacan por ofrecer gran rendimiento a un precio asequible.",
+                "productoAmazon": "CMF by Nothing Buds Pro 2",
+                "precio": "61,00€",
+                "linkProductoAmazon": "https://amzn.to/3Y1gM5X"
+            },
+            {
+                "producto": "Soundcore P3",
+                "imagen": "https://m.media-amazon.com/images/I/516zeYYDIlL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares inalámbricos con cancelación de ruido multimodo y excelente calidad de sonido. Ofrecen una autonomía de 7 horas más 5 cargas con el estuche. Una opción sobresaliente en relación calidad-precio.",
+                "productoAmazon": "Soundcore P3 Auriculares Bluetooth",
+                "precio": "59,00€",
+                "linkProductoAmazon": "https://amzn.to/4eIn1kY"
+            }
+        ],
+        "secciones": [
+            {
+                "titulo": "Moviles ecónomicos (<300€)",
+                "descripcion": "Si buscas un móvil funcional y asequible, los dispositivos de menos de 300€ ofrecen un gran equilibrio entre precio y prestaciones. Ideales para uso cotidiano, redes sociales y multimedia básica, estos móviles destacan por su buena autonomía y rendimiento decente sin comprometer demasiado el bolsillo. Perfectos para quienes buscan lo esencial sin renunciar a la calidad.",
+                "jsonn": [
+                    {
+                        "titulo": "Xiaomi Redmi Note 12",
+                        "linkAmazon": "https://amzn.to/3TONWmV",
+                        "precio": "167,41€",
+                        "descripcion": "El Xiaomi Redmi Note 12 ofrece una pantalla AMOLED de 6,43 pulgadas, cámara cuádruple con sensor principal de 50 MP y una batería de 5.000 mAh. Ideal para uso diario con un rendimiento sólido y precio asequible.",
+                        "imagen": "https://m.media-amazon.com/images/I/71sQnFe0oSL._AC_SX679_.jpg"
+                    },
+                    {
+                        "titulo": "Realme 10",
+                        "linkAmazon": "https://amzn.to/4gJNG2r",
+                        "precio": "199,00€",
+                        "descripcion": "El Realme 10 cuenta con una pantalla Super AMOLED de 6,4 pulgadas, procesador Helio G99 y una batería de 5.000 mAh con carga rápida de 33W. Excelente opción para quienes buscan un móvil equilibrado y duradero.",
+                        "imagen": "https://m.media-amazon.com/images/I/61ZL2zzy2bL._AC_SX679_.jpg"
+                    },
+                    {
+                        "titulo": "Poco M5",
+                        "linkAmazon": "https://amzn.to/4eJt9cK",
+                        "precio": "111,49€",
+                        "descripcion": "Equipado con un procesador MediaTek Helio G99, el Poco M5 ofrece buen rendimiento para juegos ligeros y multimedia. Pantalla Full HD+ de 6,58 pulgadas y batería de 5.000 mAh lo hacen ideal para usuarios que buscan calidad a buen precio.",
+                        "imagen": "https://m.media-amazon.com/images/I/61aLC+GC-sL._AC_SX679_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Moviles gama media (300€ - 600€)",
+                "descripcion": "Si buscas un móvil con características avanzadas a un precio accesible, los dispositivos de gama media son la opción ideal. Con precios entre 300€ y 600€, estos móviles ofrecen un excelente equilibrio entre rendimiento y calidad, con cámaras de gran calidad, pantallas de alta resolución y un rendimiento fluido. Son perfectos para quienes desean disfrutar de una experiencia premium sin tener que invertir en un dispositivo de gama alta, manteniendo una excelente relación calidad-precio.",
+                "jsonn": [
+                    {
+                        "titulo": "Samsung Galaxy A54 5G",
+                        "linkAmazon": "https://amzn.to/3Bpuzuw",
+                        "precio": "329,98€",
+                        "descripcion": "El Samsung Galaxy A54 5G destaca por su pantalla Super AMOLED de 6,5 pulgadas, cámara principal de 50 MP y batería de 5.000 mAh. Con conectividad 5G y un rendimiento fluido, es ideal para quienes buscan un móvil equilibrado y duradero.",
+                        "imagen": "https://m.media-amazon.com/images/I/51TwMrTOQkL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "OnePlus Nord 2T",
+                        "linkAmazon": "https://amzn.to/47NL3ZC",
+                        "precio": "258,00€",
+                        "descripcion": "El OnePlus Nord 2T ofrece un excelente rendimiento con su procesador MediaTek Dimensity 1300, pantalla AMOLED de 6,43 pulgadas y carga rápida de 80W. Es una gran opción para quienes buscan potencia y rapidez en un móvil de gama media.",
+                        "imagen": "https://m.media-amazon.com/images/I/61yDd06pY6L._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Xiaomi 12 Lite",
+                        "linkAmazon": "https://amzn.to/4dvnIwO",
+                        "precio": "175,90€",
+                        "descripcion": "Con una pantalla AMOLED de 6,55 pulgadas, cámara de 108 MP y un diseño ligero, el Xiaomi 12 Lite ofrece una experiencia premium a un precio competitivo. Perfecto para quienes buscan un móvil estilizado y potente en la gama media.",
+                        "imagen": "https://m.media-amazon.com/images/I/51CsOwsa8HL._AC_SX569_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Moviles gama alta (>600€)",
+                "descripcion": "Si buscas lo último en tecnología y rendimiento, los móviles de gama alta son la mejor opción. Con precios que superan los 600€, estos dispositivos ofrecen características premium como cámaras de alta resolución, pantallas de calidad excepcional, procesadores de última generación y acabados de lujo. Ideales para usuarios exigentes que desean la mejor experiencia en fotografía, juegos, productividad y entretenimiento, estos móviles representan lo más avanzado en innovación y calidad, proporcionando un rendimiento superior sin compromisos. Perfectos para quienes buscan lo mejor de lo mejor en un smartphone.",
+                "jsonn": [
+                    {
+                        "titulo": "Samsung Galaxy S24 Ultra",
+                        "linkAmazon": "https://amzn.to/3NaxnxX",
+                        "precio": "1.459,00€",
+                        "descripcion": "Este modelo es el buque insignia de Samsung para 2024, con una pantalla Dynamic AMOLED 2X de 6,8 pulgadas y una tasa de refresco de 165 Hz. Su cámara principal de 200 MP, el nuevo procesador Snapdragon 8 Gen 3, y una batería de larga duración lo convierten en una opción ideal para quienes buscan lo mejor en rendimiento y calidad fotográfica.",
+                        "imagen": "https://m.media-amazon.com/images/I/71-7uaiy9dL._AC_SX679_.jpg"
+                    },
+                    {
+                        "titulo": "iPhone 15 Pro Max",
+                        "linkAmazon": "https://amzn.to/3ZOYqq6",
+                        "precio": "1.279,00€",
+                        "descripcion": "El último tope de gama de Apple cuenta con un diseño en titanio, pantalla Super Retina XDR de 6,7 pulgadas y un sistema de cámaras mejorado, ideal para la grabación de vídeo y fotografía profesional. Su chip A17 Bionic ofrece un rendimiento excepcional y eficiencia energética, siendo la elección perfecta para los amantes de iOS.",
+                        "imagen": "https://m.media-amazon.com/images/I/815eN0AS-CL._AC_SX466_.jpg"
+                    },
+                    {
+                        "titulo": "Google Pixel 8 Pro",
+                        "linkAmazon": "https://amzn.to/4dmPD1T",
+                        "precio": "888,99€",
+                        "descripcion": "Este modelo es conocido por su excelente calidad fotográfica y experiencia de software pura con Android 14. Cuenta con el procesador Google Tensor G3 y una pantalla OLED de 6,7 pulgadas. Es perfecto para quienes buscan la mejor integración de hardware y software, además de siete años de actualizaciones aseguradas.",
+                        "imagen": "https://m.media-amazon.com/images/I/71M6U33-UEL._AC_SX679_.jpg"
+                    }
+                ]
+            }
+        ]
     }
 }
