@@ -30,7 +30,7 @@ export default function SubSeccion({
 
                     jsonn.map((categoria, index) => (
                         <ProductoAmazon
-
+                            key={index}
                             titulo={categoria.titulo}
                             linkAmazon={categoria.linkAmazon}
                             precio={categoria.precio}

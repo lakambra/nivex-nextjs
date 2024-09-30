@@ -15,9 +15,9 @@ export default function MovilDetallado({
   linkProductoAmazon,
 }) {
   return (
-    <div className="mb-10">
+    <div className="mb-20">
       <h3 className="text-2xl font-extrabold mb-5">{producto}</h3>
-      <img src={imagen} alt={producto} className=" mx-auto w-1/4" />
+      <img src={imagen} alt={producto} className=" mx-auto w-2/4" />
       <div className={`${fontLato.className} mb-10`}>
         <p className="mt-5 text-lg sm:text-xl 2xl:text-xl">{descripcion}</p>
       </div>

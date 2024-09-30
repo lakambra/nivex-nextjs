@@ -26,15 +26,15 @@ export default function Tablets() {
         <>
             <Header />
             <main className={fontLeto.className}>
-                <div className="flex flex-col items-center my-20">
+                <div className="flex flex-col items-center mt-10">
                     {/* <h1 className="text-2xl 2xl:text-4xl font-extrabold">Móviles: Análisis y Novedades</h1>
            */}
                     <h1
-                        className={`${fontOswald.className} text-3xl 2xl:text-4xl font-extrabold tracking-wide`}
+                        className={`${fontOswald.className} text-4xl font-extrabold tracking-wide`}
                     >
                         Auriculares
                     </h1>
-                    <h2 className="mt-4 tracking-wider max-w-64 text-center">
+                    <h2 className="mt-4 tracking-wider max-w-80 text-center">
                         {" "}
                         Análisis y novedades sobre los mejores auriculares del mercado en 2024 y más allá.
                     </h2>
