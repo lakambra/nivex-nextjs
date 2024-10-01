@@ -276,7 +276,81 @@
                 "precio": "5.699,00€",
                 "linkProductoAmazon": "https://amzn.to/3Bn8flh"
             }
+        ],
+        "IA8k":[
+            {
+                "producto": "Samsung QN900D Neo QLED 8K",
+                "imagen": "https://m.media-amazon.com/images/I/81NpNXcSDeL._AC_SX679_.jpg",
+                "descripcion": "Este televisor 8K de Samsung utiliza tecnología Neo QLED con Mini LED para ofrecer una calidad de imagen impresionante y un brillo máximo de 5000 nits. Ideal para pantallas grandes y experiencia de cine en casa.",
+                "productoAmazon": "Samsung QN900D, Televisor Neo QLED 8K de 75 Pulgadas con HDR10+",
+                "precio": "5.699,00€",
+                "linkProductoAmazon": "https://amzn.to/3Bn8flh"
+            },
+            {
+                "producto": "Samsung QN800D Neo QLED 8K",
+                "imagen": "https://m.media-amazon.com/images/I/810De6b+2cL._AC_SX569_.jpg",
+                "descripcion": "El Samsung QN800D cuenta con tecnología AI 8K Upscaling y un procesador NQ8 AI Gen3 para un escalado excelente de contenido. Con un brillo de hasta 4000 nits y soporte para HDR10+, es ideal para entretenimiento premium.",
+                "productoAmazon": "Samsung QN800D, Televisor Neo QLED 8K de 65 Pulgadas con HDR10+",
+                "precio": "3.399,00€",
+                "linkProductoAmazon": "https://amzn.to/3XQ3hEY"
+            },
+            {
+                "producto": "LG 65QNED966QA",
+                "imagen": "https://m.media-amazon.com/images/I/91sevAJZONL._AC_SX569_.jpg",
+                "descripcion": "Este televisor 8K de LG cuenta con tecnología QNED, procesador α9 Gen5 AI y una tasa de refresco de 120 Hz. Ideal para quienes buscan una imagen de alta calidad y precisión de color en resolución 8K.",
+                "productoAmazon": "LG QNED966QA, Televisor 8K 65 Pulgadas con HDR10 Pro y Dolby Vision",
+                "precio": "2.576,52€",
+                "linkProductoAmazon": "https://amzn.to/3TPwHlw"
+            },
+            {
+                "producto": "Samsung TQ75QN700CTXXC",
+                "imagen": "https://m.media-amazon.com/images/I/91IjM0eJ6zL._AC_SX569_.jpg",
+                "descripcion": "Con el Samsung TQ75QN700CTXXC, disfrutas de una resolución 8K y un sistema de retroiluminación Mini LED, ideal para grandes salas de estar. Soporta HDR 3000, ofreciendo un brillo excepcional y detalles precisos.",
+                "productoAmazon": "Samsung QN700C, Televisor Neo QLED 8K de 75 Pulgadas con HDR10+",
+                "precio": "2.107,91€",
+                "linkProductoAmazon": "https://amzn.to/4epXehF"
+            },
+            {
+                "producto": "Samsung QN700B Neo QLED 8K",
+                "imagen": "https://m.media-amazon.com/images/I/819fq8yaT+L._AC_SX569_.jpg",
+                "descripcion": "El Samsung QN700B ofrece una experiencia 8K con tecnología Neo QLED y Mini LED para un brillo excepcional y colores vibrantes. Con soporte para HDR10+ y un procesador Neo Quantum 8K, es ideal para quienes buscan calidad de imagen en un televisor premium.",
+                "productoAmazon": "Samsung QN700B, Televisor Neo QLED 8K de 75 Pulgadas con HDR10+",
+                "precio": "4.187,26€",
+                "linkProductoAmazon": "https://amzn.to/3XQRvu2"
+            }
+
+        ],
+        "secciones":[
+            {
+                "titulo": "Televisores OLED (Gama Alta)",
+                "descripcion": "Los televisores OLED ofrecen una calidad de imagen superior, con negros profundos y colores vibrantes. Ideales para quienes buscan una experiencia de visualización premium, estos televisores brindan un rendimiento sobresaliente en cuanto a contraste y precisión de color, siendo perfectos para disfrutar de películas, series y videojuegos en alta calidad.",
+                "jsonn": [
+                    {
+                        "titulo": "LG OLED C2",
+                        "linkAmazon": "https://amzn.to/3X0OEDP",
+                        "precio": "1.099,00€",
+                        "descripcion": "El LG OLED C2 ofrece una calidad de imagen increíble con negros perfectos, colores vibrantes y un rendimiento excelente en contenido HDR. Su procesador α9 Gen5 AI garantiza una experiencia visual premium en contenido 4K.",
+                        "imagen": "https://m.media-amazon.com/images/I/81c+HKk2csL._AC_SX679_.jpg"
+                    },
+                    {
+                        "titulo": "Sony A90J OLED",
+                        "linkAmazon": "https://amzn.to/3X5KS2B",
+                        "precio": "2.299,00€",
+                        "descripcion": "El Sony A90J es uno de los mejores televisores OLED del mercado. Su tecnología XR OLED Contrast Pro y Cognitive Processor XR brindan un rendimiento excepcional en cuanto a contraste y detalle de imagen, ideal para amantes del cine.",
+                        "imagen": "https://m.media-amazon.com/images/I/81MF-f6ys4L._AC_SX679_.jpg"
+                    },
+                    {
+                        "titulo": "Philips OLED 806",
+                        "linkAmazon": "https://amzn.to/3F8N5Ax",
+                        "precio": "1.249,00€",
+                        "descripcion": "El Philips OLED 806 destaca por su sistema Ambilight que mejora la experiencia inmersiva, además de su calidad de imagen superior gracias al panel OLED. Compatible con Dolby Vision y HDR10+ para una experiencia visual envolvente.",
+                        "imagen": "https://m.media-amazon.com/images/I/91jKmIEq2dL._AC_SX679_.jpg"
+                    }
+                ]
+            }
         ]
+
+        
     },
     "auriculares": {
         "topGama": [
