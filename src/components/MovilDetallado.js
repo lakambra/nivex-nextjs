@@ -21,11 +21,11 @@ export default function MovilDetallado({
       <div className={`${fontLato.className} mb-10`}>
         <p className="mt-5 text-lg sm:text-xl 2xl:text-xl">{descripcion}</p>
       </div>
-      <div className="flex flex-col m-auto max-w-2xl">
-        <div className="flex">
+      <div className="flex flex-col m-auto w-2/4">
+        <div className="flex w-full">
           <h4 className="font-bold text-base">{productoAmazon}</h4>
           <img
-            className="size-16 mr-2 sm:size-28 2xl:mr-12 ml-4"
+            className="size-16 mr-2 sm:size-28 2xl:mr-12 ml-auto"
             src={imagen}
             alt={producto}
           />

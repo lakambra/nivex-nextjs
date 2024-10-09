@@ -277,7 +277,7 @@
                 "linkProductoAmazon": "https://amzn.to/3Bn8flh"
             }
         ],
-        "IA8k":[
+        "IA8k": [
             {
                 "producto": "Samsung QN900D Neo QLED 8K",
                 "imagen": "https://m.media-amazon.com/images/I/81NpNXcSDeL._AC_SX679_.jpg",
@@ -318,9 +318,8 @@
                 "precio": "4.187,26€",
                 "linkProductoAmazon": "https://amzn.to/3XQRvu2"
             }
-
         ],
-        "secciones":[
+        "secciones": [
             {
                 "titulo": "Televisores OLED (Gama Alta)",
                 "descripcion": "Los televisores OLED ofrecen una calidad de imagen superior, con negros profundos y colores vibrantes. Ideales para quienes buscan una experiencia de visualización premium, estos televisores brindan un rendimiento sobresaliente en cuanto a contraste y precisión de color, siendo perfectos para disfrutar de películas, series y videojuegos en alta calidad.",
@@ -484,12 +483,7 @@
                     }
                 ]
             }
-
-            
-
         ]
-
-        
     },
     "auriculares": {
         "topGama": [
@@ -659,5 +653,62 @@
                 ]
             }
         ]
+    },
+    "tablets": {
+        "topGama": [
+            {},
+            {}
+        ],
+        "productividad":[
+            {
+                "producto": "Samsung Galaxy Tab S9 Ultra",
+                "imagen": "https://m.media-amazon.com/images/I/71KwKaqp1oL._AC_SX569_.jpg",
+                "descripcion": "La Samsung Galaxy Tab S9 Ultra es la opción más avanzada de la serie S9, diseñada para los usuarios más exigentes. Con una gigantesca pantalla AMOLED de 14.6 pulgadas y el potente procesador Snapdragon 8 Gen 2, esta tablet ofrece un rendimiento sin precedentes. Es ideal para profesionales creativos que necesitan una amplia área de trabajo y precisión en el uso del S Pen, que incluye tecnología Wacom. Su batería de 11,200 mAh garantiza largas horas de uso sin interrupciones, lo que la convierte en una excelente opción para el trabajo intensivo o la creación de contenido.",
+                "productoAmazon": "Samsung Galaxy Tab S9 Ultra",
+                "precio": "972,99€",
+                "linkProductoAmazon": "https://amzn.to/4gWbBfg"
+            },
+            {
+                "producto": "Microsoft Surface Pro 9",
+                "imagen": "https://m.media-amazon.com/images/I/51uCx3WwVRL._AC_SX569_.jpg",
+                "descripcion": "El Microsoft Surface Pro 9 es una tablet híbrida que combina la potencia de un ordenador portátil con la portabilidad de una tablet. Equipado con procesadores Intel Core de 12ª generación y con Windows 11, es ideal para profesionales que buscan un dispositivo versátil para trabajo en movimiento. Su pantalla PixelSense de 13 pulgadas ofrece una excelente calidad visual, y con el teclado desmontable y el Surface Pen, la productividad se multiplica. Es perfecto para tareas como edición de documentos, diseño gráfico y gestión empresarial.",
+                "productoAmazon": "Microsoft Surface Pro 9",
+                "precio": "1.619,00€w",
+                "linkProductoAmazon": "https://amzn.to/4dN1tmo"
+            },
+            {
+                "producto": "Apple iPad Pro 12.9 (2024)",
+                "imagen": "https://m.media-amazon.com/images/I/81+N4PFF7jS._AC_SX569_.jpg",
+                "descripcion": "El iPad Pro de 12.9 pulgadas de Apple sigue marcando la pauta en el segmento de tablets profesionales. Equipado con el potente chip M2, esta tablet ofrece un rendimiento excelente para multitarea y aplicaciones exigentes. Su pantalla Liquid Retina XDR es ideal para editores de vídeo, fotógrafos y diseñadores gráficos. El soporte para el Apple Pencil 2 la convierte en una herramienta imprescindible para la creación digital, mientras que la compatibilidad con el Magic Keyboard la transforma en una potente estación de trabajo portátil.",
+                "productoAmazon": "Apple iPad Pro 12.9",
+                "precio": "849,00€",
+                "linkProductoAmazon": "https://amzn.to/3zUpxpj"
+            },
+            {
+                "producto": "OnePlus Pad",
+                "imagen": "https://m.media-amazon.com/images/I/51MapG-vD3L._AC_SX569_.jpg",
+                "descripcion": "El OnePlus Pad es una opción innovadora en el mercado de tablets Android, ofreciendo una pantalla de 11.61 pulgadas con una resolución de 2800x2000 píxeles y una tasa de refresco de 144Hz. Su procesador MediaTek Dimensity 9000 garantiza un rendimiento fluido para la mayoría de las tareas de productividad. Aunque no está diseñado para reemplazar completamente a un portátil en tareas muy exigentes, su batería de 9510 mAh y la carga rápida la convierten en una excelente opción para aquellos que necesitan una tablet robusta y asequible.",
+                "productoAmazon": "OnePlus Pad",
+                "precio": "251,82€",
+                "linkProductoAmazon": "https://amzn.to/3TXFLF5"
+            },
+            {
+                "producto": "Google Pixel Tablet",
+                "imagen": "https://m.media-amazon.com/images/I/71toYWRg8nL._AC_SX569_.jpg",
+                "descripcion": "La Google Pixel Tablet es ideal para usuarios del ecosistema de Google que buscan una integración perfecta con servicios como Google Docs, Drive y más. Su pantalla de 11 pulgadas y el procesador Tensor G2 garantizan un rendimiento rápido y eficiente para tareas cotidianas. Además, viene con una base con altavoces que convierte la tablet en un hub inteligente, perfecto para videollamadas, control de dispositivos domésticos y entretenimiento.",
+                "productoAmazon": "Google Pixel Tablet",
+                "precio": "599,00€",
+                "linkProductoAmazon": "https://amzn.to/4eW2JUX"
+            },
+            {
+                "producto": "Samsung Galaxy Tab S9",
+                "imagen": "https://m.media-amazon.com/images/I/61GHusBKViL._AC_SX679_.jpg",
+                "descripcion": "La Samsung Galaxy Tab S9 ofrece una excelente combinación de portabilidad y rendimiento. Con su pantalla AMOLED de 11 pulgadas y el procesador Snapdragon 8 Gen 2, es perfecta para quienes necesitan una tablet potente pero más compacta. Su soporte para el S Pen, junto con el modo DeX que convierte la tablet en un entorno de escritorio, la hacen ideal para productividad en cualquier lugar.",
+                "productoAmazon": "Samsung Galaxy Tab S9",
+                "precio": "1.049,00€",
+                "linkProductoAmazon": "https://amzn.to/4dDCvWu"
+            }
+        ]
+            
     }
 }
