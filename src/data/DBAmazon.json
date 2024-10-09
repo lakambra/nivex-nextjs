@@ -327,27 +327,166 @@
                 "jsonn": [
                     {
                         "titulo": "LG OLED C2",
-                        "linkAmazon": "https://amzn.to/3X0OEDP",
-                        "precio": "1.099,00€",
+                        "linkAmazon": "https://amzn.to/3ZVa03l",
+                        "precio": "1.014,92€",
                         "descripcion": "El LG OLED C2 ofrece una calidad de imagen increíble con negros perfectos, colores vibrantes y un rendimiento excelente en contenido HDR. Su procesador α9 Gen5 AI garantiza una experiencia visual premium en contenido 4K.",
-                        "imagen": "https://m.media-amazon.com/images/I/81c+HKk2csL._AC_SX679_.jpg"
+                        "imagen": "https://m.media-amazon.com/images/I/71Dy57HnUTL._AC_SX569_.jpg"
                     },
                     {
                         "titulo": "Sony A90J OLED",
-                        "linkAmazon": "https://amzn.to/3X5KS2B",
-                        "precio": "2.299,00€",
+                        "linkAmazon": "https://amzn.to/3Bu1jmb",
+                        "precio": "7.499,00€",
                         "descripcion": "El Sony A90J es uno de los mejores televisores OLED del mercado. Su tecnología XR OLED Contrast Pro y Cognitive Processor XR brindan un rendimiento excepcional en cuanto a contraste y detalle de imagen, ideal para amantes del cine.",
-                        "imagen": "https://m.media-amazon.com/images/I/81MF-f6ys4L._AC_SX679_.jpg"
+                        "imagen": "https://m.media-amazon.com/images/I/81-joGD8t0L._AC_SX569_.jpg"
                     },
                     {
                         "titulo": "Philips OLED 806",
-                        "linkAmazon": "https://amzn.to/3F8N5Ax",
-                        "precio": "1.249,00€",
+                        "linkAmazon": "https://amzn.to/4eQOfpt",
+                        "precio": "1.181,17€",
                         "descripcion": "El Philips OLED 806 destaca por su sistema Ambilight que mejora la experiencia inmersiva, además de su calidad de imagen superior gracias al panel OLED. Compatible con Dolby Vision y HDR10+ para una experiencia visual envolvente.",
-                        "imagen": "https://m.media-amazon.com/images/I/91jKmIEq2dL._AC_SX679_.jpg"
+                        "imagen": "https://m.media-amazon.com/images/I/51f7DbEVgjL._AC_SX569_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Televisores QLED (Gama Media)",
+                "descripcion": "Los televisores QLED de gama media ofrecen un excelente equilibrio entre rendimiento y precio. Con tecnología de puntos cuánticos y retroiluminación LED, estos modelos brindan una calidad de imagen vibrante y brillante, siendo ideales para quienes buscan disfrutar de contenido HDR, deportes y juegos sin pagar el precio de un modelo de gama alta.",
+                "jsonn": [
+                    {
+                        "titulo": "Hisense U8H QLED",
+                        "linkAmazon": "https://amzn.to/4eV5VjH",
+                        "precio": "1.499,00€",
+                        "descripcion": "El Hisense U8H ofrece una impresionante calidad de imagen gracias a su tecnología Mini LED y soporte para Dolby Vision. Con un rendimiento sobresaliente en contenido HDR, es ideal para quienes buscan una experiencia premium a un precio accesible.",
+                        "imagen": "https://m.media-amazon.com/images/I/41TH2GrigzL._AC_SX466_.jpg"
+                    },
+                    {
+                        "titulo": "TCL 5-Series QLED",
+                        "linkAmazon": "https://amzn.to/3zFrgyT",
+                        "precio": "399,00€",
+                        "descripcion": "El TCL 5-Series QLED ofrece una excelente relación calidad-precio con su panel QLED, compatibilidad con HDR10+ y Dolby Vision, además de un modo de juego con baja latencia para una experiencia de gaming fluida.",
+                        "imagen": "https://m.media-amazon.com/images/I/717pgcRKcUL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Samsung Q70A QLED",
+                        "linkAmazon": "https://amzn.to/4eCDWps",
+                        "precio": "643,80€",
+                        "descripcion": "El Samsung Q70A combina la tecnología de puntos cuánticos con un procesador avanzado que mejora el rendimiento en escenas oscuras y juegos. Su diseño delgado y tasa de refresco de 120 Hz lo convierten en una excelente opción para quienes buscan calidad y estilo.",
+                        "imagen": "https://m.media-amazon.com/images/I/81v1bSTPq0L._AC_SX569_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Televisores Mini LED (Gama Media)",
+                "descripcion": "Los televisores Mini LED de gama media ofrecen un excelente equilibrio entre precio y rendimiento, con un brillo superior, negros profundos y una gran experiencia visual en HDR. Estos modelos son ideales para quienes buscan una imagen de alta calidad sin pagar el precio de los modelos de gama alta.",
+                "jsonn": [
+                    {
+                        "titulo": "Hisense U8K Mini LED",
+                        "linkAmazon": "https://amzn.to/47VG0q1",
+                        "precio": "1.059,00€",
+                        "descripcion": "El Hisense U8K ofrece una calidad de imagen impresionante gracias a su alto brillo de 1500 nits, soporte para Dolby Vision y una tasa de refresco de 144Hz, lo que lo hace perfecto para deportes y gaming.",
+                        "imagen": "https://m.media-amazon.com/images/I/81NqC291d5L._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "TCL QM8 Mini LED",
+                        "linkAmazon": "https://amzn.to/3zN30e9",
+                        "precio": "769,00€",
+                        "descripcion": "El TCL QM8 es un televisor Mini LED con 2500 nits de brillo y un rendimiento destacado en escenas oscuras. Es perfecto para gamers y cinéfilos que buscan un televisor potente a un precio competitivo.",
+                        "imagen": "https://m.media-amazon.com/images/I/71UJYTxuGOL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "LG QNED85 Mini LED",
+                        "linkAmazon": "https://amzn.to/4eGPJTx",
+                        "precio": "645,00€",
+                        "descripcion": "El LG QNED85 combina la tecnología Mini LED con el procesador α7 Gen5 AI, ofreciendo un buen rendimiento para contenido HDR y deportes. Con su baja latencia, es una opción atractiva para gaming.",
+                        "imagen": "https://m.media-amazon.com/images/I/81ATnY3+aML._AC_SX569_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Televisores HDR (Gama Variada)",
+                "descripcion": "Los televisores con soporte HDR (High Dynamic Range) ofrecen una experiencia visual mejorada, con mayor contraste, brillo y una gama de colores más amplia. Estos modelos, que van desde opciones económicas hasta de gama alta, brindan una calidad de imagen notable tanto para películas como para videojuegos, maximizando los detalles en las zonas más brillantes y oscuras de la pantalla.",
+                "jsonn": [
+                    {
+                        "titulo": "LG C4 OLED",
+                        "linkAmazon": "https://amzn.to/3Bvyx4D",
+                        "precio": "1.790,00€",
+                        "descripcion": "El LG C4 OLED es conocido por su rendimiento excepcional en HDR, gracias a su soporte para Dolby Vision y un contraste infinito que permite negros perfectos. Ideal para entornos con poca luz, este televisor ofrece una experiencia HDR inmersiva.",
+                        "imagen": "https://m.media-amazon.com/images/I/41YrhREmLLL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Samsung QN90C Neo QLED",
+                        "linkAmazon": "https://amzn.to/3Bzux3l",
+                        "precio": "949,99€",
+                        "descripcion": "El Samsung QN90C ofrece un rendimiento HDR sobresaliente gracias a su brillo máximo de 2000 nits y compatibilidad con HDR10+. Su tecnología Quantum HDR hace que las imágenes sean más vibrantes y detalladas, incluso en habitaciones iluminadas.",
+                        "imagen": "https://m.media-amazon.com/images/I/81MANY-xhlL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Hisense U8H QLED",
+                        "linkAmazon": "https://amzn.to/3BvyCFt",
+                        "precio": "1.238,84€",
+                        "descripcion": "El Hisense U8H ofrece un excelente rendimiento HDR con soporte para Dolby Vision, HDR10+ y un brillo de hasta 1500 nits, lo que lo convierte en una opción ideal para quienes buscan un televisor de alto rendimiento a un precio más asequible.",
+                        "imagen": "https://m.media-amazon.com/images/I/71Z56RepUXL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Sony A95L OLED",
+                        "linkAmazon": "https://amzn.to/3XQSURq",
+                        "precio": "3.389,00€",
+                        "descripcion": "El Sony A95L ofrece una de las mejores experiencias HDR del mercado, con soporte para Dolby Vision y un brillo impresionante para un televisor OLED. Perfecto para cine en casa y contenido HDR exigente.",
+                        "imagen": "https://m.media-amazon.com/images/I/911Fc+IlI7L._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "TCL 6-Series R646 QLED",
+                        "linkAmazon": "https://amzn.to/3TZqMu4",
+                        "precio": "407,88€",
+                        "descripcion": "El TCL 6-Series es uno de los mejores televisores HDR en la categoría de gama media, con soporte para Dolby Vision y HDR10+. Ofrece excelente rendimiento de imagen y es ideal para quienes buscan una buena experiencia HDR a un precio accesible.",
+                        "imagen": "https://m.media-amazon.com/images/I/81sSwl1GjqL._AC_SX569_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Televisores con HDR10+ (Gama Variada)",
+                "descripcion": "Los televisores con soporte HDR10+ ofrecen una experiencia visual avanzada, ajustando el brillo y contraste de forma dinámica para maximizar la calidad de imagen en cada escena. Estos televisores son perfectos para quienes desean disfrutar de películas y series en alta definición, aprovechando al máximo la tecnología HDR.",
+                "jsonn": [
+                    {
+                        "titulo": "Samsung QN90D Neo QLED",
+                        "linkAmazon": "https://amzn.to/4gQTTtH",
+                        "precio": "1.411,18€",
+                        "descripcion": "El Samsung QN90D destaca por su capacidad para mostrar imágenes brillantes y detalladas, con un soporte avanzado para HDR10+ y una tasa de refresco de 120Hz. Ideal para ver películas y deportes.",
+                        "imagen": "https://m.media-amazon.com/images/I/71R1CfnaW6L._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Hisense U8K QLED",
+                        "linkAmazon": "https://amzn.to/3TZUuzj",
+                        "precio": "1.059,00€",
+                        "descripcion": "El Hisense U8K ofrece un rendimiento HDR10+ con una calidad de imagen superior gracias a su brillo de hasta 2000 nits. Es una excelente opción para aquellos que buscan una buena relación calidad-precio.",
+                        "imagen": "https://m.media-amazon.com/images/I/81NqC291d5L._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "TCL 6-Series R646 QLED",
+                        "linkAmazon": "https://amzn.to/3ZTnsER",
+                        "precio": "549,04€",
+                        "descripcion": "El TCL 6-Series ofrece compatibilidad con HDR10+ y Dolby Vision, haciendo de este televisor una excelente opción para quienes buscan disfrutar de contenido HDR de alta calidad sin gastar demasiado.",
+                        "imagen": "https://m.media-amazon.com/images/I/71hBDpRdJ0L._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Philips 65OLED806",
+                        "linkAmazon": "https://amzn.to/3NiL8eb",
+                        "precio": "1.749,00€",
+                        "descripcion": "El Philips 65OLED806 combina la tecnología HDR10+ con Ambilight, lo que proporciona una experiencia envolvente. Es ideal para quienes disfrutan de ver películas y series con la mejor calidad de imagen.",
+                        "imagen": "https://m.media-amazon.com/images/I/81+4IOjdQQL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Panasonic LZ2000 OLED",
+                        "linkAmazon": "https://amzn.to/4dDjCmq",
+                        "precio": "1.049,00€",
+                        "descripcion": "El Panasonic LZ2000 es conocido por su rendimiento sobresaliente en HDR10+, ofreciendo una precisión de color excepcional. Es perfecto para cinéfilos que buscan una calidad de imagen cinematográfica.",
+                        "imagen": "https://m.media-amazon.com/images/I/711s5x23Y+L._AC_SX569_.jpg"
                     }
                 ]
             }
+
+            
+
         ]
 
         
