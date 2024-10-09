@@ -19,10 +19,10 @@ export default function ProductoAmazon({
 }) {
     return (
         <>
-            <div className="flex flex-col justify-center items-center w-72 ">
+            <div className="flex flex-col items-center w-72 m-10">
                 <img
                     src={imagen}
-                    className="w-40 h-48 object-cover object-center max-w-5xl mb-5"
+                    className="h-48 object-cover object-center max-w-5xl mb-5"
                 />
                 <div className="flex flex-col">
                     <h2 className="text-xl font-extrabold tracking-wide hover:underline ">
