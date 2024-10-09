@@ -4,7 +4,7 @@ import MovilDetallado from "@/components/MovilDetallado";
 import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
-import dbAuriculares from "@/data/DBAmazon"
+import dbWearables from "@/data/DBAmazon"
 
 const fontLato = Lato({
   subsets: ["latin"],
@@ -31,21 +31,22 @@ export default function MejorMovilDe2024() {
           <h1
             className={`${fontOswald.className} text-3xl font-bold tracking-wide xl:text-5xl`}
           >
-            Los mejores auriculares de gama alta que puedes comprar en 2024
+            Los mejores wearables que puedes comprar en 2024
           </h1>
           <p className="font-bold mt-6 lg:text-lg">
-            Los auriculares de alta gama se han convertido en un accesorio esencial para los entusiastas del sonido y los amantes del entretenimiento en dispositivos móviles. Ya sea para disfrutar de música con una fidelidad excepcional, sumergirse en la acción de una película o apreciar cada detalle de un podcast, estos auriculares ofrecen una experiencia auditiva incomparable. En este artículo, te presentamos los mejores auriculares de alta gama de 2024, donde la calidad de sonido se encuentra a la vanguardia de la tecnología y el diseño.
+            Los wearables se han convertido en dispositivos esenciales para quienes buscan monitorear su salud y mantenerse conectados en 2024. Desde relojes inteligentes hasta auriculares deportivos, estos gadgets ofrecen funciones avanzadas que mejoran la experiencia diaria. Ya sea para seguir tus actividades físicas, controlar tu frecuencia cardíaca o recibir notificaciones en tiempo real, estos dispositivos combinan tecnología y comodidad para adaptarse a tu estilo de vida. En este artículo, te presentamos los mejores wearables de este año, donde la innovación y el diseño se unen para ofrecerte lo mejor en tecnología portátil.
           </p>
         </div>
         <img
-          src="https://m.media-amazon.com/images/I/71QQqwzc9vL._AC_SL1500_.jpg"
+          src="https://img.xfinitymobile.com/image/upload/e_trim/w_480,h_600,c_fit,f_auto,q_auto,fl_lossy/v1687872917/client/v2/images/Update-to-the-Watch-BYO-Page/Update-Watch-BYO-Page-01-deals-banner-960.png"
           className="mt-10 px-5 max-w-lg mx-auto"
         />
         <p className="px-5 mt-10 mb-10 font-bold xl:max-w-5xl xl:mx-auto xl:text-lg">
-          En 2024, los auriculares de alta gama se consolidan como una elección indispensable para los verdaderos aficionados al audio. Más allá de la conveniencia de la conectividad inalámbrica, estos dispositivos destacan por su calidad de sonido excepcional, que ofrece una experiencia auditiva envolvente y detallada. La atención meticulosa a los materiales y la tecnología utilizada se traduce en una durabilidad y comodidad superior, permitiendo disfrutar de largas sesiones sin molestias. Además, la avanzada duración de la batería asegura que los usuarios puedan disfrutar de su música durante horas sin interrupciones. En este artículo, te presentamos los auriculares de alta gama más destacados de este año, donde la excelencia en calidad de sonido se combina con un diseño sofisticado.
+          En 2024, los wearables se consolidan como una herramienta indispensable para quienes buscan un estilo de vida más saludable y conectado. Estos dispositivos no solo destacan por su capacidad de seguimiento de la actividad física y la salud, sino también por su integración con aplicaciones que facilitan la gestión de tareas diarias. La atención al detalle en el diseño y la funcionalidad garantiza que los usuarios disfruten de una experiencia intuitiva y cómoda. Además, las mejoras en la duración de la batería y la conectividad aseguran que los wearables estén listos para acompañarte durante todo el día. En este artículo, te mostramos los wearables más destacados de este año, donde la excelencia en tecnología se fusiona con el estilo y la funcionalidad.
         </p>
+
         <div className="px-5 xl:max-w-5xl xl:mx-auto">
-          {dbAuriculares.auriculares.topGama.map((categoria, index) => (
+          {dbWearables.wearables.topGama.map((categoria, index) => (
             <MovilDetallado
               key={index}
               producto={categoria.producto}
