@@ -656,8 +656,54 @@
     },
     "tablets": {
         "topGama": [
-            {},
-            {}
+            {
+                "producto": "Apple iPad Pro 13 (2024)",
+                "imagen": "https://m.media-amazon.com/images/I/71WyMBEqYtL._AC_SX679_.jpg",
+                "descripcion": "Equipado con el nuevo chip M4 de Apple y una impresionante pantalla OLED de 13 pulgadas, el iPad Pro 2024 es perfecto para creativos y profesionales que necesitan un rendimiento superior. Ideal para tareas gráficas y multitarea.",
+                "productoAmazon": "Apple iPad Pro 13 (2024)",
+                "precio": "1.659,00€",
+                "linkProductoAmazon": "https://amzn.to/3U2JVvl"
+            },
+            {
+                "producto": "Samsung Galaxy Tab S9 Plus",
+                "imagen": "https://m.media-amazon.com/images/I/61ely8220DL._AC_SX679_.jpg",
+                "descripcion": "Con una pantalla AMOLED de 12.4 pulgadas y el procesador Snapdragon 8 Gen 2, la Galaxy Tab S9 Plus destaca por su resistencia al agua, soporte S Pen, y características avanzadas de multitarea. Es ideal para profesionales creativos.",
+                "productoAmazon": "Samsung Galaxy Tab S9 Plus",
+                "precio": "829,00€",
+                "linkProductoAmazon": "https://amzn.to/3Nl67wQ"
+            },
+            {
+                "producto": "Microsoft Surface Pro 9",
+                "imagen": "https://images-na.ssl-images-amazon.com/images/I/51uCx3WwVRL.__AC_SX300_SY300_QL70_ML2_.jpg",
+                "descripcion": "Un dispositivo híbrido con Windows 11, el Surface Pro 9 ofrece versatilidad y rendimiento con su pantalla de 13 pulgadas y procesador Intel Core i7. Perfecto para usuarios que necesitan un reemplazo de portátil ligero y eficiente.",
+                "productoAmazon": "Microsoft Surface Pro 9",
+                "precio": "1.619,00€",
+                "linkProductoAmazon": "https://amzn.to/4eSYuJS"
+            },
+            {
+                "producto": "OnePlus Pad",
+                "imagen": "https://m.media-amazon.com/images/I/51MapG-vD3L._AC_SX569_.jpg",
+                "descripcion": "La OnePlus Pad se presenta con una pantalla de 11.61 pulgadas y 144Hz, lo que la convierte en una gran opción para tareas multitarea y entretenimiento. Su procesador MediaTek Dimensity 9000 ofrece un buen rendimiento a un precio asequible.",
+                "productoAmazon": "OnePlus Pad",
+                "precio": "251,82€",
+                "linkProductoAmazon": "https://amzn.to/3XZQboN"
+            },
+            {
+                "producto": "Google Pixel Tablet",
+                "imagen": "https://m.media-amazon.com/images/I/71yATvhR3OL._AC_SX569_.jpg",
+                "descripcion": "El Google Pixel Tablet es perfecto para usuarios de Android que buscan una integración fluida con Google. Con una pantalla de 11 pulgadas y el procesador Tensor G2, es ideal para productividad y entretenimiento.",
+                "productoAmazon": "Google Pixel Tablet",
+                "precio": "369,00€",
+                "linkProductoAmazon": "https://amzn.to/4eSvaTR"
+            },
+            {
+                "producto": "Lenovo Tab P12 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/51wcmoe7HHL._AC_SX569_.jpg",
+                "descripcion": "La Lenovo Tab P12 Pro ofrece una excelente combinación de precio y rendimiento, con una pantalla AMOLED de 12.6 pulgadas y un procesador Snapdragon 870, ideal para productividad y entretenimiento en cualquier lugar.",
+                "productoAmazon": "Lenovo Tab P12 Pro",
+                "precio": "556,82€",
+                "linkProductoAmazon": "https://amzn.to/480tqWo"
+            }
         ],
         "productividad":[
             {
