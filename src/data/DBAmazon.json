@@ -570,85 +570,395 @@
                 "linkProductoAmazon": "https://amzn.to/4eIn1kY"
             }
         ],
+        "inear": [
+            {
+                "producto": "Sony WF-1000XM4",
+                "imagen": "https://m.media-amazon.com/images/I/51m9QoCOiwL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares inalámbricos con cancelación de ruido líder en su clase y sonido de alta resolución. Ofrecen hasta 24 horas de autonomía y son resistentes al agua, ideales para quienes buscan una experiencia de audio superior.",
+                "productoAmazon": "Sony WF-1000XM4 Auriculares Inalámbricos",
+                "precio": "249,00€",
+                "linkProductoAmazon": "https://amzn.to/3zVw4A7"
+            },
+            {
+                "producto": "Apple AirPods Pro (2ª generación)",
+                "imagen": "https://m.media-amazon.com/images/I/51R8U4qEfAL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares in-ear con cancelación de ruido activa y un sonido excepcional. Ofrecen hasta 30 horas de autonomía con el estuche de carga y cuentan con integración perfecta con dispositivos Apple.",
+                "productoAmazon": "Apple AirPods Pro (2ª generación)",
+                "precio": "299,00€",
+                "linkProductoAmazon": "https://amzn.to/3YjtUDX"
+            },
+            {
+                "producto": "Samsung Galaxy Buds2 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/6142A-T5roL._AC_SL1500_.jpg",
+                "descripcion": "Auriculares in-ear con un sonido envolvente y cancelación activa de ruido. Con hasta 28 horas de batería, son perfectos para usuarios de dispositivos Samsung que buscan calidad y comodidad.",
+                "productoAmazon": "Samsung Galaxy Buds2 Pro",
+                "precio": "229,00€",
+                "linkProductoAmazon": "https://amzn.to/4dDbFh1"
+            },
+            {
+                "producto": "Bose QuietComfort Earbuds II",
+                "imagen": "https://m.media-amazon.com/images/I/51KW4y31pJL._AC_SL1200_.jpg",
+                "descripcion": "Auriculares premium con cancelación de ruido líder en el mercado y un sonido excepcional. Ofrecen hasta 24 horas de autonomía y son ideales para los que buscan una experiencia auditiva inigualable.",
+                "productoAmazon": "Bose QuietComfort Earbuds II",
+                "precio": "299,00€",
+                "linkProductoAmazon": "https://amzn.to/4gWvB1k"
+            },
+            {
+                "producto": "Jabra Elite 85t",
+                "imagen": "https://m.media-amazon.com/images/I/61QRjIeRr1L._AC_SL1400_.jpg",
+                "descripcion": "Auriculares in-ear con cancelación activa de ruido y hasta 25 horas de autonomía. Ofrecen un sonido personalizable y son perfectos para quienes buscan comodidad y calidad de audio.",
+                "productoAmazon": "Jabra Elite 85t Auriculares Inalámbricos",
+                "precio": "199,00€",
+                "linkProductoAmazon": "https://amzn.to/3zSdQzp"
+            }
+        ],
         "secciones": [
             {
-                "titulo": "Moviles ecónomicos (<300€)",
-                "descripcion": "Si buscas un móvil funcional y asequible, los dispositivos de menos de 300€ ofrecen un gran equilibrio entre precio y prestaciones. Ideales para uso cotidiano, redes sociales y multimedia básica, estos móviles destacan por su buena autonomía y rendimiento decente sin comprometer demasiado el bolsillo. Perfectos para quienes buscan lo esencial sin renunciar a la calidad.",
+                "titulo": "Auriculares Económicos (<50€)",
+                "descripcion": "Si buscas auriculares asequibles que ofrezcan una buena calidad de sonido y comodidad, este rango es ideal. Con precios por debajo de 50€, estos auriculares son perfectos para el uso diario, ya sea para escuchar música, podcasts o realizar llamadas. Ofrecen una excelente relación calidad-precio y son una opción excelente para quienes no quieren gastar demasiado.",
                 "jsonn": [
                     {
-                        "titulo": "Xiaomi Redmi Note 12",
-                        "linkAmazon": "https://amzn.to/3TONWmV",
-                        "precio": "167,41€",
-                        "descripcion": "El Xiaomi Redmi Note 12 ofrece una pantalla AMOLED de 6,43 pulgadas, cámara cuádruple con sensor principal de 50 MP y una batería de 5.000 mAh. Ideal para uso diario con un rendimiento sólido y precio asequible.",
-                        "imagen": "https://m.media-amazon.com/images/I/71sQnFe0oSL._AC_SX679_.jpg"
+                        "titulo": "Drsaec I52",
+                        "linkAmazon": "https://amzn.to/4h1nkt8",
+                        "precio": "21,99€",
+                        "descripcion": "Los Drsaec I52 son auriculares inalámbricos con Bluetooth 5.3, que ofrecen una duración de batería de hasta 50 horas con el estuche de carga. Su diseño ultraligero y resistente al agua los hace ideales para cualquier actividad.",
+                        "imagen": "https://m.media-amazon.com/images/I/61eMVALznML._AC_SL1500_.jpg"
                     },
                     {
-                        "titulo": "Realme 10",
-                        "linkAmazon": "https://amzn.to/4gJNG2r",
-                        "precio": "199,00€",
-                        "descripcion": "El Realme 10 cuenta con una pantalla Super AMOLED de 6,4 pulgadas, procesador Helio G99 y una batería de 5.000 mAh con carga rápida de 33W. Excelente opción para quienes buscan un móvil equilibrado y duradero.",
-                        "imagen": "https://m.media-amazon.com/images/I/61ZL2zzy2bL._AC_SX679_.jpg"
-                    },
-                    {
-                        "titulo": "Poco M5",
-                        "linkAmazon": "https://amzn.to/4eJt9cK",
-                        "precio": "111,49€",
-                        "descripcion": "Equipado con un procesador MediaTek Helio G99, el Poco M5 ofrece buen rendimiento para juegos ligeros y multimedia. Pantalla Full HD+ de 6,58 pulgadas y batería de 5.000 mAh lo hacen ideal para usuarios que buscan calidad a buen precio.",
-                        "imagen": "https://m.media-amazon.com/images/I/61aLC+GC-sL._AC_SX679_.jpg"
+                        "titulo": "Btootos A90 Pro",
+                        "linkAmazon": "https://amzn.to/3ZXKCtz",
+                        "precio": "21,99€",
+                        "descripcion": "Con una autonomía de hasta 36 horas, los Btootos A90 Pro son ligeros y cuentan con cancelación de ruido. Su resistencia al agua IP7 los hace perfectos para actividades deportivas.",
+                        "imagen": "https://m.media-amazon.com/images/I/61qGMAtYCnL._AC_SL1500_.jpg"
                     }
                 ]
             },
             {
-                "titulo": "Moviles gama media (300€ - 600€)",
-                "descripcion": "Si buscas un móvil con características avanzadas a un precio accesible, los dispositivos de gama media son la opción ideal. Con precios entre 300€ y 600€, estos móviles ofrecen un excelente equilibrio entre rendimiento y calidad, con cámaras de gran calidad, pantallas de alta resolución y un rendimiento fluido. Son perfectos para quienes desean disfrutar de una experiencia premium sin tener que invertir en un dispositivo de gama alta, manteniendo una excelente relación calidad-precio.",
+                "titulo": "Auriculares de Gama Media (50€ - 150€)",
+                "descripcion": "Los auriculares de gama media ofrecen características avanzadas, como cancelación activa de ruido y sonido de alta calidad, a un precio razonable. Ideales para los amantes de la música que buscan una experiencia auditiva superior sin romper el banco.",
                 "jsonn": [
                     {
-                        "titulo": "Samsung Galaxy A54 5G",
-                        "linkAmazon": "https://amzn.to/3Bpuzuw",
-                        "precio": "329,98€",
-                        "descripcion": "El Samsung Galaxy A54 5G destaca por su pantalla Super AMOLED de 6,5 pulgadas, cámara principal de 50 MP y batería de 5.000 mAh. Con conectividad 5G y un rendimiento fluido, es ideal para quienes buscan un móvil equilibrado y duradero.",
-                        "imagen": "https://m.media-amazon.com/images/I/51TwMrTOQkL._AC_SX569_.jpg"
+                        "titulo": "JBL Tune 510BT",
+                        "linkAmazon": "https://amzn.to/3BDmPFk",
+                        "precio": "30,99€",
+                        "descripcion": "Los JBL Tune 510BT ofrecen una autonomía de hasta 16 horas y son compatibles con múltiples dispositivos. Su diseño ligero y comodidad los convierten en una excelente opción para el día a día.",
+                        "imagen": "https://m.media-amazon.com/images/I/719HaHE3qdL._AC_SL1500_.jpg"
                     },
                     {
-                        "titulo": "OnePlus Nord 2T",
-                        "linkAmazon": "https://amzn.to/47NL3ZC",
-                        "precio": "258,00€",
-                        "descripcion": "El OnePlus Nord 2T ofrece un excelente rendimiento con su procesador MediaTek Dimensity 1300, pantalla AMOLED de 6,43 pulgadas y carga rápida de 80W. Es una gran opción para quienes buscan potencia y rapidez en un móvil de gama media.",
-                        "imagen": "https://m.media-amazon.com/images/I/61yDd06pY6L._AC_SX569_.jpg"
-                    },
-                    {
-                        "titulo": "Xiaomi 12 Lite",
-                        "linkAmazon": "https://amzn.to/4dvnIwO",
-                        "precio": "175,90€",
-                        "descripcion": "Con una pantalla AMOLED de 6,55 pulgadas, cámara de 108 MP y un diseño ligero, el Xiaomi 12 Lite ofrece una experiencia premium a un precio competitivo. Perfecto para quienes buscan un móvil estilizado y potente en la gama media.",
-                        "imagen": "https://m.media-amazon.com/images/I/51CsOwsa8HL._AC_SX569_.jpg"
+                        "titulo": "Sony WH-CH510",
+                        "linkAmazon": "https://amzn.to/3YflHk4",
+                        "precio": "79,99€",
+                        "descripcion": "Con una batería que dura hasta 35 horas, los Sony WH-CH510 ofrecen un sonido de calidad y comodidad para uso prolongado. Perfectos para quienes buscan un buen rendimiento sin gastar demasiado.",
+                        "imagen": "https://m.media-amazon.com/images/I/51sub9oxJkL._AC_SL1024_.jpg"
                     }
                 ]
             },
             {
-                "titulo": "Moviles gama alta (>600€)",
-                "descripcion": "Si buscas lo último en tecnología y rendimiento, los móviles de gama alta son la mejor opción. Con precios que superan los 600€, estos dispositivos ofrecen características premium como cámaras de alta resolución, pantallas de calidad excepcional, procesadores de última generación y acabados de lujo. Ideales para usuarios exigentes que desean la mejor experiencia en fotografía, juegos, productividad y entretenimiento, estos móviles representan lo más avanzado en innovación y calidad, proporcionando un rendimiento superior sin compromisos. Perfectos para quienes buscan lo mejor de lo mejor en un smartphone.",
+                "titulo": "Auriculares de Gama Alta (>150€)",
+                "descripcion": "Si buscas lo mejor en tecnología de audio, los auriculares de gama alta son la opción ideal. Con precios superiores a 150€, ofrecen una calidad de sonido excepcional, comodidad superior y funciones avanzadas como la cancelación activa de ruido.",
                 "jsonn": [
                     {
-                        "titulo": "Samsung Galaxy S24 Ultra",
-                        "linkAmazon": "https://amzn.to/3NaxnxX",
-                        "precio": "1.459,00€",
-                        "descripcion": "Este modelo es el buque insignia de Samsung para 2024, con una pantalla Dynamic AMOLED 2X de 6,8 pulgadas y una tasa de refresco de 165 Hz. Su cámara principal de 200 MP, el nuevo procesador Snapdragon 8 Gen 3, y una batería de larga duración lo convierten en una opción ideal para quienes buscan lo mejor en rendimiento y calidad fotográfica.",
-                        "imagen": "https://m.media-amazon.com/images/I/71-7uaiy9dL._AC_SX679_.jpg"
+                        "titulo": "Bose 700",
+                        "linkAmazon": "https://amzn.to/3zPPAhw",
+                        "precio": "200,00€",
+                        "descripcion": "Los Bose 700 son conocidos por su excelente cancelación de ruido y calidad de sonido. Con una autonomía de 20 horas, son ideales para viajes y uso diario.",
+                        "imagen": "https://m.media-amazon.com/images/I/61rgsnfRJlL._AC_SL1500_.jpg"
                     },
                     {
-                        "titulo": "iPhone 15 Pro Max",
-                        "linkAmazon": "https://amzn.to/3ZOYqq6",
-                        "precio": "1.279,00€",
-                        "descripcion": "El último tope de gama de Apple cuenta con un diseño en titanio, pantalla Super Retina XDR de 6,7 pulgadas y un sistema de cámaras mejorado, ideal para la grabación de vídeo y fotografía profesional. Su chip A17 Bionic ofrece un rendimiento excepcional y eficiencia energética, siendo la elección perfecta para los amantes de iOS.",
-                        "imagen": "https://m.media-amazon.com/images/I/815eN0AS-CL._AC_SX466_.jpg"
+                        "titulo": "Google Pixel Buds Pro 2",
+                        "linkAmazon": "https://amzn.to/4eSYrxJ",
+                        "precio": "249,99€",
+                        "descripcion": "Estos auriculares inalámbricos ofrecen cancelación activa de ruido y hasta 7 horas de reproducción. Son perfectos para quienes buscan calidad de audio y comodidad.",
+                        "imagen": "https://m.media-amazon.com/images/I/61ypAfESX5L._AC_SL1500_.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    "portatiles": {
+        "calidadPrecio": [
+            {
+                "producto": "Lenovo IdeaPad 3 Gen 6",
+                "imagen": "https://m.media-amazon.com/images/I/717M-HAM2WL._AC_SL1500_.jpg",
+                "descripcion": "Con un potente procesador Intel Core i7-1165G7, 16 GB de RAM y 512 GB de almacenamiento SSD, este portátil es ideal para tareas exigentes como edición de video y juegos, garantizando un rendimiento excepcional.",
+                "productoAmazon": "Lenovo IdeaPad 3 Gen 6",
+                "precio": "549,00€",
+                "linkProductoAmazon": "https://amzn.to/47WGg85"
+            },
+            {
+                "producto": "HP 15-fd0052ns",
+                "imagen": "https://m.media-amazon.com/images/I/71ch32nXbYL._AC_SL1500_.jpg",
+                "descripcion": "Ligero y potente, cuenta con un procesador Intel Core i5-1334U, 16 GB de RAM y 512 GB SSD. Perfecto para estudiantes y profesionales que buscan un rendimiento fiable en tareas cotidianas.",
+                "productoAmazon": "HP 15-fd0052ns",
+                "precio": "629,00€",
+                "linkProductoAmazon": "https://amzn.to/3zHH9ot"
+            },
+            {
+                "producto": "Acer Aspire 3 A315-58-53SZ",
+                "imagen": "https://m.media-amazon.com/images/I/71s4GzZX7fL._AC_SL1500_.jpg",
+                "descripcion": "Este modelo incorpora un procesador Intel Core i5-1135G7, 8 GB de RAM y un SSD de 512 GB, proporcionando un gran rendimiento para tareas de productividad diaria, todo a un precio asequible.",
+                "productoAmazon": "Acer Aspire 3 A315-58-53SZ",
+                "precio": "425,00€",
+                "linkProductoAmazon": "https://amzn.to/4dHx7l8"
+            },
+            {
+                "producto": "HP Pavilion x360 14",
+                "imagen": "https://m.media-amazon.com/images/I/71OeELh9eZL._AC_SL1500_.jpg",
+                "descripcion": "Un portátil versátil con pantalla táctil, procesador Intel Core i5-1235U y 8 GB de RAM, ideal para quienes buscan un equipo potente y adaptable para el trabajo y el entretenimiento.",
+                "productoAmazon": "HP Pavilion x360 14",
+                "precio": "849,00€",
+                "linkProductoAmazon": "https://amzn.to/3zGLacR"
+            },
+            {
+                "producto": "Lenovo ThinkBook 14 G4 IAP",
+                "imagen": "https://m.media-amazon.com/images/I/61hK2fn6oSL._AC_SL1500_.jpg",
+                "descripcion": "Diseñado para profesionales, este portátil cuenta con un Intel Core i7-1255U, 16 GB de RAM y 512 GB SSD, ofreciendo un rendimiento sólido y fiabilidad en tareas exigentes.",
+                "productoAmazon": "Lenovo ThinkBook 14 G4 IAP",
+                "precio": "862,00€",
+                "linkProductoAmazon": "https://amzn.to/3ZTOrQF"
+            }
+        ],
+        "topGama": [
+            {
+                "producto": "Razer Blade 16",
+                "imagen": "https://m.media-amazon.com/images/I/51Og7dpiH3L._AC_SL1000_.jpg",
+                "descripcion": "Equipado con un procesador Intel Core i9 de 13ª generación y una tarjeta gráfica NVIDIA GeForce RTX 4060, el Razer Blade 16 es ideal para juegos y aplicaciones exigentes. Su pantalla de 16\" QHD+ ofrece una resolución impresionante de 2560x1600 píxeles.",
+                "productoAmazon": "Razer Blade 16 - Portátil para Juegos",
+                "precio": "2.699,00€",
+                "linkProductoAmazon": "https://amzn.to/3zPH9mm"
+            },
+            {
+                "producto": "Apple MacBook Pro M2 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/71PWU942AIL._AC_SL1500_.jpg",
+                "descripcion": "El MacBook Pro M2 Pro combina un rendimiento excepcional con una pantalla Liquid Retina XDR. Ideal para creativos y profesionales que requieren potencia y eficiencia, cuenta con un diseño elegante y una duración de batería de hasta 22 horas.",
+                "productoAmazon": "Apple MacBook Pro M2 Pro",
+                "precio": "1.059,00€",
+                "linkProductoAmazon": "https://amzn.to/481UTHp"
+            },
+            {
+                "producto": "ASUS TUF Gaming F15",
+                "imagen": "https://m.media-amazon.com/images/I/91Q1rzN9YPL._AC_SL1500_.jpg",
+                "descripcion": "Un portátil potente con un procesador Intel i7 de 12ª generación y una tarjeta gráfica GeForce RTX 4050. Con 16 GB de RAM y 1 TB de almacenamiento SSD, es una excelente opción para juegos y tareas exigentes.",
+                "productoAmazon": "ASUS TUF Gaming F15",
+                "precio": "599,00€",
+                "linkProductoAmazon": "https://amzn.to/3ZTPpwh"
+            },
+            {
+                "producto": "MSI Prestige 16 AI EVO",
+                "imagen": "https://m.media-amazon.com/images/I/712vcE-1DZL._AC_SL1500_.jpg",
+                "descripcion": "Este ultrabook premium destaca por su pantalla OLED 2400P y un diseño elegante. Con un procesador Intel Core Ultra 7 155H y hasta 2TB de almacenamiento, es ideal para trabajos creativos y multitarea.",
+                "productoAmazon": "MSI Prestige 16 AI EVO",
+                "precio": "1.200,00€",
+                "linkProductoAmazon": "https://amzn.to/4dGNiPJ"
+            },
+            {
+                "producto": "Acer Swift GO 16",
+                "imagen": "https://m.media-amazon.com/images/I/51RlMwR-IkL._AC_SL1000_.jpg",
+                "descripcion": "Con un peso de solo 1.6 kg y una pantalla OLED de 16\" 3.2K, el Swift GO 16 combina rendimiento y portabilidad. Ideal para usuarios que requieren un portátil ligero pero potente, cuenta con un procesador Core i7 y 1TB de SSD.",
+                "productoAmazon": "Acer Swift GO 16",
+                "precio": "1.590,00€",
+                "linkProductoAmazon": "https://amzn.to/4dJCvEa"
+            }
+        ],
+        "secciones": [
+            {
+                "titulo": "Portátiles para trabajo y estudio (<1000€)",
+                "descripcion": "Si buscas un portátil para trabajar o estudiar, es esencial elegir uno que ofrezca un buen rendimiento a un precio accesible. Los modelos de menos de 1000€ proporcionan un equilibrio ideal entre potencia, portabilidad y duración de la batería, perfectos para tareas de oficina, navegación web y aplicaciones educativas.",
+                "jsonn": [
+                    {
+                        "titulo": "Acer Swift 3",
+                        "linkAmazon": "https://amzn.to/3zUW9iJ",
+                        "precio": "120  9,99€",
+                        "descripcion": "El Acer Swift 3 es un portátil ligero y portátil, equipado con un procesador AMD Ryzen 7, 16GB de RAM y 512GB SSD. Su diseño elegante y batería de larga duración lo hacen perfecto para estudiantes y profesionales en movimiento.",
+                        "imagen": "https://m.media-amazon.com/images/I/71rY4dOiSrL._AC_SL1500_.jpg"
                     },
                     {
-                        "titulo": "Google Pixel 8 Pro",
-                        "linkAmazon": "https://amzn.to/4dmPD1T",
-                        "precio": "888,99€",
-                        "descripcion": "Este modelo es conocido por su excelente calidad fotográfica y experiencia de software pura con Android 14. Cuenta con el procesador Google Tensor G3 y una pantalla OLED de 6,7 pulgadas. Es perfecto para quienes buscan la mejor integración de hardware y software, además de siete años de actualizaciones aseguradas.",
-                        "imagen": "https://m.media-amazon.com/images/I/71M6U33-UEL._AC_SX679_.jpg"
+                        "titulo": "Dell Inspiron 15",
+                        "linkAmazon": "https://amzn.to/4dAkOqI",
+                        "precio": "349,99€",
+                        "descripcion": "El Dell Inspiron 15 es ideal para tareas diarias con su pantalla de 15.6 pulgadas, procesador Intel Core i5, 8GB de RAM y 256GB SSD. Ofrece un rendimiento sólido para el trabajo y el estudio, a un precio competitivo.",
+                        "imagen": "https://m.media-amazon.com/images/I/71j2mTnRm-L._AC_SL1500_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Portátiles gama media (1000€ - 0200€)",
+                "descripcion": "Para quienes buscan un portátil que pueda manejar aplicaciones más exigentes, los modelos de gama media son ideales. Con un precio entre 1000€ y 1500€, estos portátiles ofrecen un rendimiento fluido, pantallas de alta calidad y una buena duración de la batería, adecuados tanto para trabajo como para entretenimiento.",
+                "jsonn": [
+                    {
+                        "titulo": "ASUS ROG Zephyrus G14",
+                        "linkAmazon": "https://amzn.to/47YSpcK",
+                        "precio": "1.600,99€",
+                        "descripcion": "El ASUS ROG Zephyrus G14 combina un potente procesador AMD Ryzen 9 y gráficos NVIDIA RTX 4050, ideal para gaming y tareas de alto rendimiento. Su pantalla de 14 pulgadas y su batería de larga duración lo hacen perfecto para el trabajo y el ocio.",
+                        "imagen": "https://m.media-amazon.com/images/I/61nTD9khOqL._AC_SL1200_.jpg"
+                    },
+                    {
+                        "titulo": "Lenovo ThinkPad X1 Carbon Gen 10",
+                        "linkAmazon": "https://amzn.to/4gVucYT",
+                        "precio": "1.299,00€",
+                        "descripcion": "El Lenovo ThinkPad X1 Carbon Gen 10 es un portátil ultraportátil con un diseño robusto y elegante. Ofrece un rendimiento impresionante con su procesador Intel Core i7, 16GB de RAM y 512GB SSD, ideal para profesionales que necesitan movilidad y potencia.",
+                        "imagen": "https://m.media-amazon.com/images/I/51GlaopQ3iL._AC_SL1200_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Portátiles para gaming (>1500€)",
+                "descripcion": "Si eres un entusiasta de los videojuegos y buscas el mejor rendimiento, los portátiles de gaming son la opción ideal. Con precios superiores a 1500€, ofrecen características avanzadas como potentes tarjetas gráficas, pantallas de alta frecuencia de actualización y excelente refrigeración, ideales para los juegos más exigentes.",
+                "jsonn": [
+                    {
+                        "titulo": "Razer Blade 14",
+                        "linkAmazon": "https://amzn.to/48h1n5n",
+                        "precio": "2.999,99€",
+                        "descripcion": "El Razer Blade 14 es un portátil de gaming premium que cuenta con un procesador AMD Ryzen 9 y gráficos NVIDIA RTX 4060. Con una pantalla de 14 pulgadas y 240Hz, es perfecto para juegos competitivos y tareas creativas.",
+                        "imagen": "https://m.media-amazon.com/images/I/61zVJn8wY9L._AC_SL1200_.jpg"
+                    },
+                    {
+                        "titulo": "Alienware m16",
+                        "linkAmazon": "https://amzn.to/3NjTwdj",
+                        "precio": "2.999,99€",
+                        "descripcion": "El Alienware m16 es un portátil de alto rendimiento diseñado para los gamers más exigentes. Con su pantalla de 16 pulgadas y potente GPU NVIDIA RTX 4070, ofrece una experiencia de juego fluida y gráficos de alta calidad.",
+                        "imagen": "https://m.media-amazon.com/images/I/61mYppLr5mL._AC_SL1400_.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    "wearables": {
+        "topGama": [
+            {
+                "producto": "Apple Watch Series 9",
+                "imagen": "https://m.media-amazon.com/images/I/71HMrrqcbOL._AC_SL1500_.jpg",
+                "descripcion": "Este reloj combina herramientas avanzadas de salud y fitness con una interfaz fácil de usar. Ofrece un nuevo gesto de doble toque para una mejor accesibilidad y es ideal para usuarios de iOS.",
+                "productoAmazon": "Apple Watch Series 9",
+                "precio": "369,00€",
+                "linkProductoAmazon": "https://amzn.to/4dAU2hL"
+            },
+            {
+                "producto": "Samsung Galaxy Watch 5 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/61NuuvLOPzL._AC_SL1491_.jpg",
+                "descripcion": "Con un diseño robusto y una batería de larga duración, este smartwatch ofrece un conjunto completo de funciones de seguimiento de salud y fitness, ideal para usuarios de Android.",
+                "productoAmazon": "Samsung Galaxy Watch 5 Pro",
+                "precio": "238,00€",
+                "linkProductoAmazon": "https://amzn.to/4gRs3xr"
+            },
+            {
+                "producto": "TicWatch Pro 5",
+                "imagen": "https://m.media-amazon.com/images/I/71F0Y77sEwL._AC_SL1500_.jpg",
+                "descripcion": "Destaca por su diseño ultrarresistente y doble pantalla, que optimiza la duración de la batería. Ideal para quienes buscan un smartwatch con gran autonomía y resistencia.",
+                "productoAmazon": "TicWatch Pro 5",
+                "precio": "269,99€",
+                "linkProductoAmazon": "https://amzn.to/482MYt5"
+            },
+            {
+                "producto": "HUAWEI Watch Ultimate",
+                "imagen": "https://m.media-amazon.com/images/I/81-dxvLEdPL._AC_SL1500_.jpg",
+                "descripcion": "Con un diseño premium en titanio y múltiples funciones de salud, este reloj tiene una impresionante duración de batería de hasta 14 días con una sola carga.",
+                "productoAmazon": "HUAWEI Watch Ultimate",
+                "precio": "649,00€",
+                "linkProductoAmazon": "https://amzn.to/3A3pYO5"
+            },
+            {
+                "producto": "Fitbit Sense 2",
+                "imagen": "https://m.media-amazon.com/images/I/61DiMa4f1gL._AC_SL1500_.jpg",
+                "descripcion": "Este dispositivo se centra en la salud y el bienestar, ofreciendo un seguimiento exhaustivo del sueño y el estrés, ideal para quienes buscan mejorar su bienestar general.",
+                "productoAmazon": "Fitbit Sense 2",
+                "precio": "189,00€",
+                "linkProductoAmazon": "https://amzn.to/4dFtDiM"
+            }
+        ],
+        "new": [
+            {
+                "producto": "Apple Watch Series 10",
+                "imagen": "https://m.media-amazon.com/images/I/61AKZh-Hp3L._AC_SL1500_.jpg",
+                "descripcion": "El Apple Watch Series 10 se destaca por su capacidad de monitoreo de salud avanzada, incluyendo sensor de frecuencia cardíaca, electrocardiograma y seguimiento del sueño. Además, tiene una interfaz intuitiva y compatibilidad con el ecosistema de Apple.",
+                "productoAmazon": "Apple Watch Series 10",
+                "precio": "499,00€",
+                "linkProductoAmazon": "https://amzn.to/40gwwUz"
+            },
+            {
+                "producto": "Samsung Galaxy Watch 7",
+                "imagen": "https://m.media-amazon.com/images/I/51aOxx81i0L._AC_SL1200_.jpg",
+                "descripcion": "Diseñado para atletas, este smartwatch incluye GPS integrado, monitoreo de oxígeno en sangre y análisis del sueño. Su batería de larga duración y su diseño resistente lo hacen ideal para actividades al aire libre.",
+                "productoAmazon": "Samsung Galaxy Watch 7",
+                "precio": "286,00€",
+                "linkProductoAmazon": "https://amzn.to/3BAeke5"
+            },
+            {
+                "producto": "Fitbit Charge 6",
+                "imagen": "https://m.media-amazon.com/images/I/61hPHSvZtqL._AC_SL1500_.jpg",
+                "descripcion": "Este rastreador de fitness de estilo banda es conocido por su relación calidad-precio. Incorpora funciones avanzadas como lecturas de ECG y un sensor de estrés EDA, siendo una excelente opción para aquellos que quieren un dispositivo más asequible.",
+                "productoAmazon": "Fitbit Charge 6",
+                "precio": "119,00€",
+                "linkProductoAmazon": "https://amzn.to/4dHABnI"
+            },
+            {
+                "producto": "Garmin fenix 7 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/61QcBzmqdPL._AC_SL1500_.jpg",
+                "descripcion": "Un reloj para aventuras al aire libre, este modelo es famoso por su durabilidad y sus funciones avanzadas de seguimiento. Su batería de larga duración y el seguimiento GPS son particularmente destacados, haciéndolo ideal para atletas serios.",
+                "productoAmazon": "Garmin fenix 7 Pro",
+                "precio": "670,00€",
+                "linkProductoAmazon": "https://amzn.to/4eARDVF"
+            },
+            {
+                "producto": "COROS Pace 3",
+                "imagen": "https://m.media-amazon.com/images/I/61HE8zhwT7L._AC_SL1500_.jpg",
+                "descripcion": "El COROS Pace 3 es un smartwatch asequible pero repleto de funciones, ideal para corredores. Cuenta con GPS dual, almacenamiento de música y un monitor de frecuencia cardíaca de última generación.",
+                "productoAmazon": "COROS Pace 3",
+                "precio": "249,00€",
+                "linkProductoAmazon": "https://amzn.to/4gZXLZm"
+            }
+        ],
+        "secciones": [
+            {
+                "titulo": "Smartwatches para iPhone",
+                "descripcion": "Si eres usuario de iPhone, los smartwatches de Apple son la opción más integrada y funcional. Ofrecen características avanzadas de seguimiento de salud y una interfaz intuitiva que se sincroniza perfectamente con tu dispositivo iOS.",
+                "jsonn": [
+                    {
+                        "titulo": "Apple Watch Series 9",
+                        "linkAmazon": "https://amzn.to/3zPpew4",
+                        "precio": "369,00€",
+                        "descripcion": "La Apple Watch Series 9 destaca por sus herramientas de salud y fitness, GPS preciso y una interfaz fácil de navegar. También incluye una nueva función de gestos que permite interacciones rápidas sin tocar la pantalla.",
+                        "imagen": "https://m.media-amazon.com/images/I/71HMrrqcbOL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "titulo": "Apple Watch Ultra 2",
+                        "linkAmazon": "https://amzn.to/482gLCh",
+                        "precio": "898,00€",
+                        "descripcion": "El Apple Watch Ultra 2 es ideal para los aventureros, con un diseño robusto y una pantalla brillante. Soporta condiciones extremas y cuenta con funciones avanzadas para deportes y navegación.",
+                        "imagen": "https://m.media-amazon.com/images/I/71Q-oq7BqqL._AC_SL1500_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Smartwatches para Android",
+                "descripcion": "Si utilizas Android, hay excelentes opciones disponibles que ofrecen un amplio rango de características, desde el seguimiento de la salud hasta una buena duración de la batería.",
+                "jsonn": [
+                    {
+                        "titulo": "Samsung Galaxy Watch 5 Pro",
+                        "linkAmazon": "https://amzn.to/3ZT43DZ",
+                        "precio": "238,99€",
+                        "descripcion": "El Galaxy Watch 5 Pro combina un diseño elegante con un conjunto completo de funciones de salud y fitness. Su batería puede durar varios días, lo que lo hace perfecto para el uso diario.",
+                        "imagen": "https://m.media-amazon.com/images/I/61NuuvLOPzL._AC_SL1491_.jpg"
+                    },
+                    {
+                        "titulo": "Google Pixel Watch 2",
+                        "linkAmazon": "https://amzn.to/3ZYJR3n",
+                        "precio": "279,00€",
+                        "descripcion": "El Pixel Watch 2 ofrece una experiencia pura de Android con un diseño estilizado y excelentes características de salud, ideal para quienes buscan una opción moderna y funcional.",
+                        "imagen": "https://m.media-amazon.com/images/I/61ZEutwQeGL._AC_SL1500_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Smartwatches de presupuesto",
+                "descripcion": "Si buscas un smartwatch económico, hay varias opciones que ofrecen funcionalidades básicas a un precio accesible. Perfectos para principiantes o para quienes solo necesitan lo esencial.",
+                "jsonn": [
+                    {
+                        "titulo": "Nothing CMF Watch Pro",
+                        "linkAmazon": "Nothing CMF Watch Pro",
+                        "precio": "75,00€",
+                        "descripcion": "El Nothing CMF Watch Pro es una opción asequible que incluye características como una pantalla siempre activa y es compatible tanto con iOS como con Android. Ideal para quienes buscan funcionalidad sin un gran desembolso.",
+                        "imagen": "https://m.media-amazon.com/images/I/71TFyRJ+MqL._AC_SL1500_.jpg"
                     }
                 ]
             }
@@ -659,7 +969,7 @@
             {},
             {}
         ],
-        "productividad":[
+        "productividad": [
             {
                 "producto": "Samsung Galaxy Tab S9 Ultra",
                 "imagen": "https://m.media-amazon.com/images/I/71KwKaqp1oL._AC_SX569_.jpg",
@@ -709,6 +1019,5 @@
                 "linkProductoAmazon": "https://amzn.to/4dDCvWu"
             }
         ]
-            
     }
 }
