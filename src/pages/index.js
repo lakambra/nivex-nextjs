@@ -5,26 +5,18 @@ import ResumenCategoria from "@/components/ResumenCategoria";
 import { JetBrains_Mono } from "next/font/google";
 import Titulo from "@/components/Titulo";
 import db from "@/data/DB"
+import Heads from "@/components/Heads"
 
 const fontJet = JetBrains_Mono({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Nivex - Tecnología y móviles, comparativas y análisis</title>
-        <link rel="icon" type="image/png" href="/images/1.png" />
-        <meta name="robots" content="index,follow" />
-        <meta
-          name="google-site-verification"
-          content="rDJ6SDzDvNgj_Bq75dweJgoe9o-EWl3cmOhG2NecGNE"
-        />
-        <meta
-          name="description"
-          content="Nivex - Tu fuente de información sobre tecnología y móviles, con comparativas y análisis detallados."
-        />
-      </Head>
-
+      
+      <Heads
+        titulo= "Nivex - Tecnología y móviles, comparativas y análisis"
+        descripcion="Nivex - Tu fuente de información sobre tecnología y móviles, con comparativas y análisis detallados."
+      ></Heads>
       <Header />
       <main className="mt-16">
         <p className="m-auto w-3/4 font-bold mb-10">
