@@ -1064,6 +1064,133 @@
                 "precio": "1.049,00€",
                 "linkProductoAmazon": "https://amzn.to/4dDCvWu"
             }
+        ],
+        "calidadPrecio": [
+            {
+                "producto": "Samsung Galaxy Tab A9",
+                "imagen": "https://m.media-amazon.com/images/I/614PzsqzJ4L._AC_SX569_.jpg",
+                "descripcion": "Con una pantalla de 10.5 pulgadas y el procesador Unisoc T618, la Galaxy Tab A9 es una excelente opción asequible para quienes buscan una tablet de calidad para películas y navegación web.",
+                "productoAmazon": "Samsung Galaxy Tab A9",
+                "precio": "149,00€",
+                "linkProductoAmazon": "https://amzn.to/4dCi2RD"
+            },
+            {
+                "producto": "Lenovo Tab P12 Pro",
+                "imagen": "https://m.media-amazon.com/images/I/51yQ6-CLeyL._AC_SX569_.jpg",
+                "descripcion": "Lenovo ofrece con la Tab P12 Pro una excelente relación calidad-precio, con una pantalla AMOLED de 12.6 pulgadas y procesador Snapdragon 870, ideal para productividad y entretenimiento.",
+                "productoAmazon": "Lenovo Tab P12 Pro",
+                "precio": "1.101,05€",
+                "linkProductoAmazon": "https://amzn.to/4h0MtE3"
+            },
+            {
+                "producto": "OnePlus Pad",
+                "imagen": "https://m.media-amazon.com/images/I/51MapG-vD3L._AC_SX569_.jpg",
+                "descripcion": "La OnePlus Pad es una opción asequible con pantalla de 11.61 pulgadas y 144Hz, ideal para tareas multitarea y entretenimiento, impulsada por el procesador MediaTek Dimensity 9000.",
+                "productoAmazon": "OnePlus Pad",
+                "precio": "251,82€",
+                "linkProductoAmazon": "https://amzn.to/4h2hOGi"
+            },
+            {
+                "producto": "Xiaomi Pad 6",
+                "imagen": "https://m.media-amazon.com/images/I/61r5G2bTHzL._AC_SX569_.jpg",
+                "descripcion": "La Xiaomi Pad 6 ofrece una excelente experiencia de usuario con una pantalla de 11 pulgadas y un rendimiento fluido gracias a su procesador Snapdragon 870. Ideal para productividad y juegos.",
+                "productoAmazon": "Xiaomi Pad 6",
+                "precio": "247,06€",
+                "linkProductoAmazon": "https://amzn.to/485Dm10"
+            },
+                        {
+                "producto": "Honor Pad X9",
+                "imagen": "https://m.media-amazon.com/images/I/713vTsITT9L._AC_SX569_.jpg",
+                "descripcion": "La Honor Pad X9 destaca por su gran pantalla de 11.5 pulgadas y un excelente rendimiento general para su precio. Ideal para estudiantes y profesionales que buscan una opción accesible.",
+                "productoAmazon": "Honor Pad X9",
+                "precio": "189,99€",
+                "linkProductoAmazon": "https://amzn.to/3ZWVBDC"
+            }
+        ],
+        "secciones":[
+            {
+                "titulo": "Tablets ligeras y portátiles para 2024",
+                "descripcion": "Las tablets ligeras y portátiles son ideales para profesionales y estudiantes que buscan trabajar en cualquier lugar sin sacrificar rendimiento. Estas tablets combinan un diseño delgado, una larga duración de batería y una experiencia visual excepcional.",
+                "jsonn": [
+                    
+                    {
+                        "titulo": "Samsung Galaxy Tab S9+",
+                        "linkAmazon": "https://amzn.to/3Yhpayv",
+                        "precio": "929,00€",
+                        "descripcion": "La Galaxy Tab S9+ es una excelente opción para diseñadores y profesionales que buscan portabilidad sin comprometer rendimiento. Con su pantalla AMOLED de 12.4 pulgadas y procesador Snapdragon 8 Gen 2, ofrece una experiencia visual impresionante y un diseño ligero.",
+                        "imagen": "https://m.media-amazon.com/images/I/61ely8220DL._AC_SX679_.jpg"
+                    },
+                    {
+                        "titulo": "iPad Air (2024)",
+                        "linkAmazon": "https://amzn.to/401kCNY",
+                        "precio": "699,00€",
+                        "descripcion": "El iPad Air 2024 con chip M2 es una opción destacada para quienes buscan una tablet ligera y potente. Con una pantalla de 11 pulgadas y compatibilidad con el Apple Pencil, es perfecta para tareas creativas y de estudio.",
+                        "imagen": "https://m.media-amazon.com/images/I/71kumkhjk9L._AC_SX679_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Tablets con pantallas grandes y de alta calidad en 2024",
+                "descripcion": "Estas tablets destacan por sus pantallas grandes y de alta resolución, ideales para el trabajo y estudio, proporcionando una experiencia visual envolvente para tareas que requieren gran espacio de pantalla y precisión.",
+                "jsonn": [
+                    {
+                        "titulo": "Apple iPad Pro 13 (2024)",
+                        "linkAmazon": "https://amzn.to/4eZuagE",
+                        "precio": "1.659,00€",
+                        "descripcion": "El iPad Pro 12.9 ofrece una pantalla mini-LED de alta resolución con colores vibrantes, ideal para tareas de productividad, diseño gráfico y multitarea. Su tamaño de pantalla facilita la visualización de múltiples aplicaciones a la vez.",
+                        "imagen": "https://m.media-amazon.com/images/I/71WyMBEqYtL._AC_SX679_.jpg"
+                    },
+                    {
+                        "titulo": "Samsung Galaxy Tab S9 Ultra",
+                        "linkAmazon": "https://amzn.to/3YtdEQV",
+                        "precio": "972,99€",
+                        "descripcion": "La Galaxy Tab S9 Ultra cuenta con una pantalla AMOLED de 14.6 pulgadas, que ofrece una experiencia visual inmersiva para trabajo y entretenimiento. Su gran tamaño permite trabajar cómodamente en múltiples ventanas.",
+                        "imagen": "https://m.media-amazon.com/images/I/71KwKaqp1oL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Microsoft Surface Pro 9",
+                        "linkAmazon": "https://amzn.to/4eCRGR0",
+                        "precio": "1.619,00€",
+                        "descripcion": "La Surface Pro 9 cuenta con una pantalla PixelSense de 13 pulgadas, ideal para trabajo en movimiento y compatible con el Surface Pen, lo que facilita la toma de notas y tareas creativas.",
+                        "imagen": "https://m.media-amazon.com/images/I/51uCx3WwVRL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Lenovo Tab P12 Pro",
+                        "linkAmazon": "https://amzn.to/3ZY0L24",
+                        "precio": "556,82€",
+                        "descripcion": "Esta tablet ofrece una pantalla AMOLED de 12.6 pulgadas, perfecta para tareas de trabajo, visualización de contenido y productividad. Su display claro y vibrante mejora la experiencia de uso intensivo.",
+                        "imagen": "https://m.media-amazon.com/images/I/51wcmoe7HHL._AC_SX569_.jpg"
+                    }
+                ]
+            },
+            {
+                "titulo": "Tablets con mejor duración de batería para estudio y trabajo en 2024",
+                "descripcion": "Estas tablets se destacan por su duración de batería prolongada, ideal para jornadas de trabajo o estudio largas sin necesidad de recargar constantemente.",
+                "jsonn": [
+                    {
+                        "titulo": "Samsung Galaxy Tab S9 Ultra",
+                        "linkAmazon": "https://amzn.to/3YtdEQV",
+                        "precio": "972,99€",
+                        "descripcion": "La Galaxy Tab S9 Ultra cuenta con una pantalla AMOLED de 14.6 pulgadas, que ofrece una experiencia visual inmersiva para trabajo y entretenimiento. Su gran tamaño permite trabajar cómodamente en múltiples ventanas.",
+                        "imagen": "https://m.media-amazon.com/images/I/71KwKaqp1oL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Lenovo Tab P11 Pro Gen 2",
+                        "linkAmazon": "https://amzn.to/3ZTTEI8",
+                        "precio": "465,00€",
+                        "descripcion": "La Lenovo Tab P11 Pro Gen 2 tiene una batería que dura hasta 10.5 horas, perfecta para productividad y entretenimiento con su pantalla OLED de 11.2 pulgadas.",
+                        "imagen": "https://m.media-amazon.com/images/I/61tCFfOT1nL._AC_SX569_.jpg"
+                    },
+                    {
+                        "titulo": "Samsung Galaxy Tab A9 Plus",
+                        "linkAmazon": "https://amzn.to/3Y3Eqxw",
+                        "precio": "237,10€",
+                        "descripcion": "Esta opción asequible ofrece alrededor de 11 horas de batería y una pantalla TFT de 11 pulgadas. Ideal para estudiantes que necesitan una tablet confiable para todo el día.",
+                        "imagen": "https://m.media-amazon.com/images/I/61tQhYDxKEL._AC_SX569_.jpg"
+                    }
+                ]
+            }
+
         ]
     }
 }
