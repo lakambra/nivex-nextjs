@@ -27,6 +27,10 @@ export default function Home() {
 
       <Header />
       <main className="mt-16">
+        <p className="m-auto w-3/4 font-bold mb-10">
+          En Nivex, te ayudamos a encontrar la mejor tecnología disponible en Amazon. Descubre reseñas honestas, guías de compra y comparativas de dispositivos como smartphones, televisores, portátiles y más, todo para que puedas elegir productos de calidad al mejor precio.
+        </p>
+
         <Titulo texto="LO MÁS VISTO" />
         <div className="mt-16 mx-auto w-4/5 items-start flex flex-wrap justify-evenly pb-10">
           {db.masVisto.map((categoria, index) => (
