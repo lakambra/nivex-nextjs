@@ -12,9 +12,9 @@ const fontJet = JetBrains_Mono({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      
+
       <Heads
-        titulo= "Nivex - Tecnología y móviles, comparativas y análisis"
+        titulo="Nivex - Tecnología y móviles, comparativas y análisis"
         descripcion="Nivex - Tu fuente de información sobre tecnología y móviles, con comparativas y análisis detallados."
       ></Heads>
       <Header />
