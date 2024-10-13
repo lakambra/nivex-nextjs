@@ -6,6 +6,7 @@ import ResumenCategoriaGrande from "@/components/ResumenCategoriaGrande";
 import { Lato } from "next/font/google";
 import { Oswald } from "next/font/google";
 import db from "@/data/DB";
+import Heads from "@/components/Heads"
 
 
 const fontLeto = Lato({
@@ -28,6 +29,10 @@ const datosFiltrados = allItems.filter(item => item.categoria === "MÓVILES");
 export default function Moviles() {
   return (
     <>
+      <Heads
+        titulo="Noticias sobre móviles | Nivex - Tecnología y móviles, comparativas y análisis"
+        descripcion="Noticias sobre móviles, análisis y comparativas de los mejores móviles del mercado en 2024 y más allá. Encuentra información sobre las últimas novedades en tecnología móvil."
+      ></Heads>
       <Header />
       <main className={fontLeto.className}>
         <div className="flex flex-col items-center my-20">
