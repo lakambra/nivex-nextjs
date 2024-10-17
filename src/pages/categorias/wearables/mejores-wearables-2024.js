@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbWearables from "@/data/DBAmazon"
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
   subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function MejorMovilDe2024() {
   return (
     <>
+      <Heads
+        titulo="Mejores wearables 2024 | Nivex - Comparativas, análisis y ofertas"
+        descripcion={`
+    Descubre los mejores wearables de 2024 con análisis detallados y las mejores ofertas. 
+    Compara smartwatches, pulseras de actividad, y otros dispositivos que te ayudan a estar conectado y cuidar de tu salud, y compra fácilmente en Amazon. 
+    Encuentra wearables con funciones avanzadas, gran diseño y excelente relación calidad-precio.
+    ${dbWearables.wearables.topGama.map(item => item.producto).join(', ')}
+  `}
+      />
+
       <Header />
       <main className="mt-14">
         <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

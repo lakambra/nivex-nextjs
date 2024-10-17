@@ -6,6 +6,7 @@ import ResumenCategoriaGrande from "@/components/ResumenCategoriaGrande";
 import { Lato } from "next/font/google";
 import { Oswald } from "next/font/google";
 import db from "@/data/DB";
+import Heads from "@/components/Heads";
 
 const fontLeto = Lato({
     subsets: ["latin"],
@@ -25,6 +26,15 @@ const datosFiltrados = allItems.filter(item => item.categoria === "PORTÁTILES")
 export default function Tablets() {
     return (
         <>
+            <Heads
+                titulo="Noticias sobre portátiles | Nivex - Tecnología y portátiles, comparativas y análisis"
+                descripcion={`
+    Noticias sobre portátiles, análisis y comparativas de los mejores portátiles del mercado en 2024 y más allá. 
+    Encuentra información sobre las últimas novedades en tecnología de portátiles.
+    ${datosFiltrados.map(item => item.titulo).join(', ')}
+  `}
+            />
+
             <Header />
             <main className={fontLeto.className}>
                 <div className="flex flex-col items-center my-20">

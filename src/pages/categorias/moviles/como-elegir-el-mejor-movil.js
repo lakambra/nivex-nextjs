@@ -7,6 +7,7 @@ import { Lato } from "next/font/google";
 import dbMovil from "@/data/DBAmazon"
 import Titulo from "@/components/Titulo";
 import SubSeccion from "@/components/SubSeccion";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -18,6 +19,11 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function comoelegirelmejormovil() {
     return (
         <>
+        <Heads
+                titulo= "Guia rapida moviles, como elegir el mejor movil segun tu presupuesto | Nivex - Tecnología y auriculares, comparativas y análisis"
+        descripcion={`Descripcion de como elegir tu movil segun tu presupuesto separando por presupuesto los mejores moviles para cada categoria.
+            ${dbMovil.moviles.secciones.map(item => item.titulo).join(', ')}`}
+        ></Heads>
             <Header />
             <main className="mt-14">
                 <Titulo texto="DEFINE TU PRESUPUESTO"></Titulo>

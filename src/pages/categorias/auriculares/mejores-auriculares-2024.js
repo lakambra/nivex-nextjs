@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbAuriculares from "@/data/DBAmazon"
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
   subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function MejorMovilDe2024() {
   return (
     <>
+      <Heads
+        titulo="Mejores auriculares 2024 | Nivex - Comparativas, análisis y ofertas"
+        descripcion={`
+    Descubre los mejores auriculares de 2024 con análisis detallados y ofertas exclusivas. 
+    Compara modelos de alta calidad, encuentra el que se ajuste a tus necesidades y compra fácilmente en Amazon. 
+    Explora auriculares con excelente sonido, durabilidad y confort a precios accesibles.
+    ${dbAuriculares.auriculares.topGama.map(item => item.producto).join(', ')}
+  `}
+      />
+
       <Header />
       <main className="mt-14">
         <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

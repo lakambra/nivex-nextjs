@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbTV from "@/data/DBAmazon";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function nuevasSmartTV() {
     return (
         <>
+            <Heads
+                titulo="Nuevas televisiones IA y 8K 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Descubre las nuevas televisiones con tecnología IA y resolución 8K de 2024. 
+    Compara modelos de última generación que ofrecen inteligencia artificial para una mejor experiencia de usuario, imágenes ultra definidas y compra fácilmente en Amazon. 
+    Encuentra televisores 8K con funciones avanzadas y calidad de imagen impresionante, perfectos para el hogar del futuro.
+    ${dbTV.televisiones.IA8k.map(item => item.producto).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

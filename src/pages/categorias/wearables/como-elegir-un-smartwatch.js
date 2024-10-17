@@ -7,6 +7,7 @@ import { Lato } from "next/font/google";
 import db from "@/data/DBAmazon"
 import Titulo from "@/components/Titulo";
 import SubSeccion from "@/components/SubSeccion";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -18,6 +19,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function comoelegirelmejormovil() {
     return (
         <>
+            <Heads
+                titulo="Cómo elegir un smartwatch por sistema operativo 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Aprende a elegir el mejor smartwatch de 2024 según su sistema operativo: Wear OS, watchOS, Tizen y más. 
+    Compara modelos compatibles con tu smartphone y descubre las mejores funciones para fitness, notificaciones y personalización. 
+    Encuentra el smartwatch ideal para ti y compra fácilmente en Amazon.
+    ${db.wearables.secciones.map(item => item.titulo).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <Titulo texto="DEFINE TU PRESUPUESTO"></Titulo>

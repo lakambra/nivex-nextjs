@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbMovil from "@/data/DBAmazon"
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function MejorMovilDe2024() {
     return (
         <>
+            <Heads
+                titulo="Mejores móviles plegables 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Descubre los mejores móviles plegables de 2024 con análisis detallados y las mejores ofertas. 
+    Compara modelos innovadores, encuentra el que se ajuste a tu estilo y compra fácilmente en Amazon. 
+    Explora smartphones plegables de última generación que combinan diseño y tecnología avanzada.
+    ${dbMovil.moviles.plegables.map(item => item.producto).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

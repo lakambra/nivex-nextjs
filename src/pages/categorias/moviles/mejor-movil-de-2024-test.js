@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbMovil from "@/data/DBAmazon"
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
   subsets: ["latin"],
@@ -16,6 +17,14 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function MejorMovilDe2024() {
   return (
     <>
+      <Heads
+        titulo="Lo más visto: Mejores móviles 2024, cómo elegir el mejor móvil según tu presupuesto | Nivex - Tecnología y móviles, comparativas y análisis"
+        descripcion={`
+    Descubre los mejores móviles de 2024 con las mejores ofertas y análisis detallados. Compara modelos, elige el que se ajuste a tu presupuesto y compra fácilmente en Amazon. Encuentra móviles de alta gama, calidad-precio y más. ¡Haz clic y consigue tu nuevo smartphone hoy mismo!
+    ${dbMovil.moviles.topGama.map(item => item.producto).join(', ')}
+  `}
+      />
+
       <Header />
       <main className="mt-14">
         <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

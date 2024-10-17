@@ -1,10 +1,19 @@
 import Header from "@/components/Header";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import MovilDetallado from "@/components/MovilDetallado";
+import Heads from "@/components/Heads";
 
 export default function MejorMovilDe2024() {
   return (
     <>
+      <Heads
+        titulo="Lo más visto: Mejores móviles 2024, cómo elegir el mejor móvil según tu presupuesto | Nivex - Tecnología y móviles, comparativas y análisis"
+        descripcion={`
+    Descripción de cómo elegir tu móvil según tu presupuesto, separando por presupuesto los mejores móviles para cada categoría en 2024.
+    ${dbMovil.moviles.secciones.map(item => item.titulo).join(', ')}
+  `}
+      />
+
       <Header />
       <main>
         <div className="flex flex-col max-w-full h-auto md:items-center md:bg-gradient-to-b md:from-black md:from-5%">

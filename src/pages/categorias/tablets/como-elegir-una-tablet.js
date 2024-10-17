@@ -7,6 +7,7 @@ import { Lato } from "next/font/google";
 import dbTablets from "@/data/DBAmazon"
 import Titulo from "@/components/Titulo";
 import SubSeccion from "@/components/SubSeccion";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -18,6 +19,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function comoelegirelmejormovil() {
     return (
         <>
+            <Heads
+                titulo="Cómo elegir una tablet por pantalla, ligereza o batería 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Aprende cómo elegir la mejor tablet de 2024 según sus características de pantalla, ligereza o batería. 
+    Compara modelos que se adaptan a tus necesidades de portabilidad, duración de batería y calidad de visualización, y compra fácilmente en Amazon. 
+    Encuentra la tablet perfecta para ti, ya sea para entretenimiento, trabajo o estudio.
+    ${dbTablets.tablets.secciones.map(item => item.titulo).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <Titulo texto="DEFINE TU PRESUPUESTO"></Titulo>

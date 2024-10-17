@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbTV from "@/data/DBAmazon";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
   subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function mejoresTV2024() {
   return (
     <>
+      <Heads
+        titulo="Mejores televisiones 2024 | Nivex - Comparativas, análisis y ofertas"
+        descripcion={`
+    Descubre las mejores televisiones de 2024 con análisis detallados y las mejores ofertas. 
+    Compara modelos OLED, QLED, 4K, y HDR, y compra fácilmente en Amazon. 
+    Encuentra televisores con excelente calidad de imagen, diseño y funciones avanzadas, perfectos para cada hogar.
+    ${dbTV.televisiones.topGama.map(item => item.producto).join(', ')}
+  `}
+      />
+
       <Header />
       <main className="mt-14">
         <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>
