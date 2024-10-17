@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbAuriculares from "@/data/DBAmazon"
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function MejorMovilDe2024() {
     return (
         <>
+            <Heads
+                titulo="Mejores auriculares in-ear 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Descubre los mejores auriculares in-ear de 2024 con análisis detallados y las mejores ofertas. 
+    Compara modelos compactos con excelente calidad de sonido y compra fácilmente en Amazon. 
+    Encuentra auriculares in-ear con gran rendimiento y comodidad, perfectos para cualquier ocasión.
+    ${dbAuriculares.auriculares.inear.map(item => item.producto).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

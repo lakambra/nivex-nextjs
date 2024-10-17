@@ -7,6 +7,7 @@ import { Lato } from "next/font/google";
 import dbPortatiles from "@/data/DBAmazon"
 import Titulo from "@/components/Titulo";
 import SubSeccion from "@/components/SubSeccion";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -18,6 +19,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function comoelegirelmejormovil() {
     return (
         <>
+            <Heads
+                titulo="Cómo elegir un portátil según su uso 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Aprende a elegir el mejor portátil según tus necesidades de uso en 2024. 
+    Compara modelos diseñados para estudiantes, trabajo, gaming, diseño gráfico y más, y compra fácilmente en Amazon. 
+    Descubre portátiles adaptados a cada actividad, con excelente rendimiento y al mejor precio.
+    ${dbPortatiles.portatiles.secciones.map(item => item.titulo).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <Titulo texto="DEFINE TU PRESUPUESTO"></Titulo>

@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbPortatiles from "@/data/DBAmazon"
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function MejorMovilDe2024() {
     return (
         <>
+            <Heads
+                titulo="Mejores portátiles calidad-precio 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Encuentra los mejores portátiles calidad-precio de 2024 con análisis detallados y ofertas exclusivas. 
+    Compara modelos con excelente rendimiento a precios accesibles y compra fácilmente en Amazon. 
+    Descubre portátiles que ofrecen una gran relación calidad-precio para cada tipo de usuario.
+    ${dbPortatiles.portatiles.calidadPrecio.map(item => item.producto).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

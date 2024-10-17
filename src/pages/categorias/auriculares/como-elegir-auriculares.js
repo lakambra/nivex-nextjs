@@ -7,6 +7,7 @@ import { Lato } from "next/font/google";
 import dbAuriculares from "@/data/DBAmazon"
 import Titulo from "@/components/Titulo";
 import SubSeccion from "@/components/SubSeccion";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -18,6 +19,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function comoelegirelmejormovil() {
     return (
         <>
+            <Heads
+                titulo="Cómo elegir auriculares según tu economía 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Aprende cómo elegir los mejores auriculares según tu presupuesto en 2024. 
+    Compara modelos con gran calidad de sonido a precios accesibles y encuentra la opción ideal para ti. 
+    Descubre auriculares económicos, de gama media y alta, y compra fácilmente en Amazon. 
+    ${dbAuriculares.auriculares.secciones.map(item => item.titulo).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <Titulo texto="DEFINE TU PRESUPUESTO"></Titulo>

@@ -7,6 +7,7 @@ import { Lato } from "next/font/google";
 import dbMovil from "@/data/DBAmazon"
 import Titulo from "@/components/Titulo";
 import SubSeccion from "@/components/SubSeccion";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -18,6 +19,17 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function comoelegirelmejormovil() {
     return (
         <>
+            <Heads
+                titulo="Cómo elegir una televisión por OLED, QLED o HDR 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Aprende cómo elegir la mejor televisión de 2024 según su tecnología: OLED, QLED, HDR y más. 
+    Compara modelos que ofrecen la mejor calidad de imagen, contraste y brillo para disfrutar del entretenimiento en casa, y compra fácilmente en Amazon. 
+    Descubre las diferencias entre OLED, QLED y HDR para encontrar la televisión perfecta para tu hogar.
+    ${dbMovil.televisiones.secciones.map(item => item.titulo).join(', ')}
+  `}
+            />
+
+
             <Header />
             <main className="mt-14">
                 <Titulo texto="DEFINE TU PRESUPUESTO"></Titulo>

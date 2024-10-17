@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbTablets from "@/data/DBAmazon";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function mejoresTabletsCalidadPrecio() {
     return (
         <>
+            <Heads
+                titulo="Mejores tablets calidad-precio 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Descubre las mejores tablets calidad-precio de 2024 con análisis detallados y ofertas exclusivas. 
+    Compara modelos que ofrecen gran rendimiento a precios accesibles y compra fácilmente en Amazon. 
+    Encuentra tablets con excelente relación calidad-precio para todo tipo de usuarios, ya sea para trabajo, estudio o entretenimiento.
+    ${dbTablets.tablets.calidadPrecio.map(item => item.producto).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

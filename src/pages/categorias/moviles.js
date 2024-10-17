@@ -31,7 +31,11 @@ export default function Moviles() {
     <>
       <Heads
         titulo="Noticias sobre móviles | Nivex - Tecnología y móviles, comparativas y análisis"
-        descripcion="Noticias sobre móviles, análisis y comparativas de los mejores móviles del mercado en 2024 y más allá. Encuentra información sobre las últimas novedades en tecnología móvil."
+        descripcion={
+        `Noticias sobre móviles, análisis y comparativas de los mejores móviles del mercado en 2024 y más allá. Encuentra información sobre las últimas novedades en tecnología móvil.
+        ${datosFiltrados.map(item => item.titulo).join(', ')}`
+                
+  }
       ></Heads>
       <Header />
       <main className={fontLeto.className}>

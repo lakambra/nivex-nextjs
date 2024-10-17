@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbMovil from "@/data/DBAmazon"
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function MejorMovilDe2024() {
     return (
         <>
+            <Heads
+                titulo="Mejores móviles calidad-precio 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Encuentra los mejores móviles calidad-precio de 2024 con análisis detallados y ofertas irresistibles. 
+    Compara modelos, ajusta tu presupuesto y compra fácilmente en Amazon. Descubre smartphones de gran rendimiento a precios accesibles. 
+    ¡Elige el móvil perfecto para ti sin gastar de más!
+    ${dbMovil.moviles.calidadPrecio.map(item => item.producto).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>

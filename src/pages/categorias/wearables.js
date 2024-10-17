@@ -6,6 +6,7 @@ import ResumenCategoriaGrande from "@/components/ResumenCategoriaGrande";
 import { Lato } from "next/font/google";
 import { Oswald } from "next/font/google";
 import db from "@/data/DB";
+import Heads from "@/components/Heads";
 
 const fontLeto = Lato({
     subsets: ["latin"],
@@ -24,6 +25,15 @@ const datosFiltrados = allItems.filter(item => item.categoria === "WEARABLES");
 export default function Tablets() {
     return (
         <>
+            <Heads
+                titulo="Noticias sobre wearables | Nivex - Tecnología y wearables, comparativas y análisis"
+                descripcion={`
+    Noticias sobre wearables, análisis y comparativas de los mejores wearables del mercado en 2024 y más allá. 
+    Encuentra información sobre las últimas novedades en tecnología de wearables.
+    ${datosFiltrados.map(item => item.titulo).join(', ')}
+  `}
+            />
+
             <Header />
             <main className={fontLeto.className}>
                 <div className="flex flex-col items-center my-20">

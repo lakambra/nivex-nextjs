@@ -5,6 +5,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
 import dbTablets from "@/data/DBAmazon";
+import Heads from "@/components/Heads";
 
 const fontLato = Lato({
     subsets: ["latin"],
@@ -16,6 +17,16 @@ const fontOswald = Oswald({ subsets: ["latin"] });
 export default function nuevasTablets2024() {
     return (
         <>
+            <Heads
+                titulo="Mejores tablets 2024 | Nivex - Comparativas, análisis y ofertas"
+                descripcion={`
+    Descubre las mejores tablets de 2024 con análisis detallados y las mejores ofertas. 
+    Compara modelos de alta gama, tablets para entretenimiento, trabajo y estudio, y compra fácilmente en Amazon. 
+    Encuentra tablets con excelente rendimiento, durabilidad y diseño, perfectas para cada necesidad.
+    ${dbTablets.tablets.topGama.map(item => item.producto).join(', ')}
+  `}
+            />
+
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>
