@@ -22,7 +22,7 @@ const todosLosDatos = [
 let allItems = todosLosDatos.flat();
 const datosFiltrados = allItems.filter(item => item.categoria === "WEARABLES");
 
-export default function Tablets() {
+export default function wearables() {
     return (
         <>
             <Heads

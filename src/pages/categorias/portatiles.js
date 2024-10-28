@@ -23,7 +23,7 @@ let allItems = todosLosDatos.flat();
 const datosFiltrados = allItems.filter(item => item.categoria === "PORTÁTILES");
 
 
-export default function Tablets() {
+export default function portatiles() {
     return (
         <>
             <Heads

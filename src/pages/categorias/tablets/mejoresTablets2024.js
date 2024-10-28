@@ -14,7 +14,7 @@ const fontLato = Lato({
 const fontJet = JetBrains_Mono({ subsets: ["latin"] });
 const fontOswald = Oswald({ subsets: ["latin"] });
 
-export default function nuevasTablets2024() {
+export default function mejoresTablets2024() {
     return (
         <>
             <Heads
