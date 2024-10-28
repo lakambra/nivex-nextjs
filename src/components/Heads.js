@@ -10,12 +10,12 @@ const fontLato = Lato({
 export default function Heads({
     titulo,
     descripcion
-    
+
 }) {
     return (
         <Head>
             <title>{titulo}</title>
-            <link rel="icon" type="image/png" href="/images/1.png" />
+            <Link rel="icon" type="image/png" href="/images/1.png" />
             <meta name="robots" content="index,follow" />
             <meta
                 name="google-site-verification"
