@@ -1,5 +1,4 @@
 import { Lato } from "next/font/google";
-import Link from "next/link";
 import Head from "next/head";
 
 const fontLato = Lato({
@@ -15,7 +14,7 @@ export default function Heads({
     return (
         <Head>
             <title>{titulo}</title>
-            <Link rel="icon" type="image/png" href="/images/1.png" />
+            <link rel="icon" type="image/png" href="/images/1.png" />
             <meta name="robots" content="index,follow" />
             <meta
                 name="google-site-verification"
