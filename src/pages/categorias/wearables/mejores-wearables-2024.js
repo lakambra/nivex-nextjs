@@ -14,7 +14,7 @@ const fontLato = Lato({
 const fontJet = JetBrains_Mono({ subsets: ["latin"] });
 const fontOswald = Oswald({ subsets: ["latin"] });
 
-export default function MejorMovilDe2024() {
+export default function mejoresWearables2024() {
   return (
     <>
       <Heads

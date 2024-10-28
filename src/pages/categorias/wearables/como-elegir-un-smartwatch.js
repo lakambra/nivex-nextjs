@@ -16,7 +16,7 @@ const fontLato = Lato({
 const fontJet = JetBrains_Mono({ subsets: ["latin"] });
 const fontOswald = Oswald({ subsets: ["latin"] });
 
-export default function comoelegirelmejormovil() {
+export default function comoElegirUnSmartWatch() {
     return (
         <>
             <Heads

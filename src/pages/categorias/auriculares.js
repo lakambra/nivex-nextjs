@@ -22,7 +22,7 @@ const todosLosDatos = [
 let allItems = todosLosDatos.flat();
 const datosFiltrados = allItems.filter(item => item.categoria === "AURICULARES");
 
-export default function Tablets() {
+export default function Auriculares() {
     return (
         <>
             <Heads
