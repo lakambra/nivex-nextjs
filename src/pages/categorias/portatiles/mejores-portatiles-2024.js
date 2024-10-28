@@ -4,7 +4,7 @@ import MovilDetallado from "@/components/MovilDetallado";
 import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";
-import dbAuriculares from "@/data/DBAmazon"
+import dbPortatiles from "@/data/DBAmazon"
 import Heads from "@/components/Heads";
 
 const fontLato = Lato({
@@ -57,7 +57,7 @@ export default function mejoresPortatiles2024() {
         </p>
 
         <div className="px-5 xl:max-w-5xl xl:mx-auto">
-          {dbAuriculares.portatiles.topGama.map((categoria, index) => (
+          {dbPortatiles.portatiles.topGama.map((categoria, index) => (
             <MovilDetallado
               key={index}
               producto={categoria.producto}
