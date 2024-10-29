@@ -99,7 +99,7 @@
                 "descripcion": "El Samsung Galaxy Z Fold 5 es ideal para usuarios expertos que buscan una pantalla grande y multifuncional. Con una pantalla interna de 7,6 pulgadas y una externa de 6,2 pulgadas, ofrece un rendimiento excelente gracias a su procesador Snapdragon 8 Gen 2 y 12 GB de RAM. Además, es compatible con el S Pen y cuenta con funciones adicionales como Samsung DeX.",
                 "productoAmazon": "Samsung Galaxy Z Fold5, 512 GB + Cargador 45W - Teléfono Móvil Plegable con IA, Smartphone Android Libre, 12GB de RAM, Cámara de Alta Resolución, Negro (Versión Española)",
                 "precio": "1.249,97€",
-                "linkProducto": "https://amzn.to/3Bi6llO"
+                "linkProductoAmazon": "https://amzn.to/3Bi6llO"
             },
             {
                 "producto": "Motorola Razr 40 Ultra",
@@ -107,7 +107,7 @@
                 "descripcion": "El Motorola Razr 40 Ultra destaca por su diseño compacto y su pantalla externa de 4 pulgadas, la más grande en un plegable de este tipo. Ofrece un rendimiento potente con su procesador Snapdragon 8s Gen 3 y 12 GB de RAM. Es una opción atractiva para quienes buscan un dispositivo elegante y funcional con un toque nostálgico.",
                 "productoAmazon": "Motorola Razr 40 Ultra Teléfono Inteligente, 8/256Gb, Procesador Snapdragon 8+ Gen1, Plegable, Cámara Flex View, Batería 3800 Mah, Carga Rápida de 33 W, Dual Sim/Esim, Peach Fuzz, Versión ES y PT",
                 "precio": "553,12€",
-                "linkProducto": "https://amzn.to/3BsOt7F"
+                "linkProductoAmazon": "https://amzn.to/3BsOt7F"
             },
             {
                 "producto": "Samsung Galaxy Z Flip6",
@@ -115,7 +115,7 @@
                 "descripcion": "El Galaxy Z Flip6 es ideal para quienes buscan un plegable que ocupe poco espacio. Equipado con un procesador Snapdragon 8 Gen 3 y 12 GB de RAM, ofrece un buen rendimiento en tareas diarias y multimedia. Su batería de 4.000 mAh con carga rápida de 25W es suficiente para un uso moderado.",
                 "productoAmazon": "Smartphone SAMSUNG Galaxy Z Flip6 Azul 256 GB",
                 "precio": "783,00€",
-                "linkProducto": "https://amzn.to/4eye25C"
+                "linkProductoAmazon": "https://amzn.to/4eye25C"
             },
             {
                 "producto": "Huawei Mate Xs 2",
@@ -123,7 +123,7 @@
                 "descripcion": "El Huawei Mate Xs 2 ofrece una gran pantalla plegable y una batería de 4.600 mAh con carga rápida de 66W, que se carga en poco más de media hora. Es ideal para aquellos que buscan una experiencia de pantalla grande en un formato plegable.",
                 "productoAmazon": "HUAWEI Smartphone Mate XS 2 PAL-LX9 512GB 4G LTE Dual SIM Negro, 8 GB RAM, cámara triple de 50 MP, pantalla plegable True-Chroma 7.8/6.5 pulgadas",
                 "precio": "1.999,99€",
-                "linkProducto": "https://amzn.to/4doneZg"
+                "linkProductoAmazon": "https://amzn.to/4doneZg"
             },
             {
                 "producto": "OPPO Find N2 Flip",
@@ -131,7 +131,7 @@
                 "descripcion": "El OPPO Find N2 Flip tiene una pantalla externa pequeña, pero su pantalla interna AMOLED de 6,8 pulgadas y su cámara frontal de 32 MP lo convierten en una opción interesante. Su procesador Dimensity 9000+ y batería de 4.300 mAh con carga rápida de 44W lo hacen ideal para quienes buscan un plegable a un precio más contenido.",
                 "productoAmazon": "OPPO Find N2 Flip, Teléfono móvil Plegable, 8GB+256GB, Cámara 50+8 MP, Pantalla Externa Gigante, Batería 4300mAh, Cargá Rápida SuperVOOC 44W, Dual Nano SIM – Negro",
                 "precio": "899,99€",
-                "linkProducto": "https://amzn.to/4ecWXOQ"
+                "linkProductoAmazon": "https://amzn.to/4ecWXOQ"
             }
         ],
         "secciones": [
@@ -955,10 +955,10 @@
                 "jsonn": [
                     {
                         "titulo": "Nothing CMF Watch Pro",
-                        "linkAmazon": "Nothing CMF Watch Pro",
-                        "precio": "75,00€",
+                        "linkAmazon": "https://amzn.to/3Uo7KxV",
+                        "precio": "69,00€",
                         "descripcion": "El Nothing CMF Watch Pro es una opción asequible que incluye características como una pantalla siempre activa y es compatible tanto con iOS como con Android. Ideal para quienes buscan funcionalidad sin un gran desembolso.",
-                        "imagen": "https://m.media-amazon.com/images/I/71TFyRJ+MqL._AC_SL1500_.jpg"
+                        "imagen": "https://m.media-amazon.com/images/I/617psPDxTLL._AC_SX679_.jpg"
                     }
                 ]
             }
