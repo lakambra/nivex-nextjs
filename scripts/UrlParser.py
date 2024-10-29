@@ -3,8 +3,16 @@ import requests
 import time  # Importar el módulo para agregar retrasos
 
 # URL base de la API y token (reemplaza con tu token)
+#posibles tokens
+#OuvGBfXjGbfRbvqSVr2bHgjEbGLeI4c5XHsuPZqy
+
+#yH10zoztNeMTmrW1Eir4Yb3fCa10CBhhwgNIRA42
+
+#6vRgOkvB5ux8TuTFagQYNNsQGMvz72PRAPJdAq8G
+
+#LrUTuO25vhF675FnqlJlnigrKMs9KYddTgkVQHwd
 api_url = "https://onesimpleapi.com/api/unshorten"
-token = "OuvGBfXjGbfRbvqSVr2bHgjEbGLeI4c5XHsuPZqy"
+token = "LrUTuO25vhF675FnqlJlnigrKMs9KYddTgkVQHwd"
 
 # Función para extraer enlaces y agregar urlAmpliada
 def extraer_y_actualizar_enlaces(diccionario):
@@ -31,21 +39,21 @@ def extraer_y_actualizar_enlaces(diccionario):
                 if response.status_code == 200:
                     # Añadir un nuevo campo "urlAmpliada" con la URL descomprimida
                     diccionario['urlAmpliada'] = response.text.strip()  # La respuesta de la API es un texto plano (URL)
-                    time.sleep(5)
+                    #time.sleep(5)
                     print("esperando 5 segundos")  # Pausa para evitar el error 429
                 else:
                     print(f"Error al descomprimir el enlace {value}, código de error: {response.status_code}")
                     #time.sleep(5)
 
 # Cargar el archivo JSON
-with open('src/data/DBAmazon_actualizado3.json', 'r', encoding='utf-8') as f:
+with open('src/data/DBAmazon.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Actualizar el JSON con los nuevos campos urlAmpliada
 extraer_y_actualizar_enlaces(data)
 
 # Guardar el JSON actualizado con los campos 'urlAmpliada'
-with open('src/data/DBAmazon_actualizado4.json', 'w', encoding='utf-8') as f:
+with open('src/data/DBAmazon2.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print("Actualización completada. JSON guardado en 'DBAmazon_actualizado.json'.")

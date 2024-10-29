@@ -114,22 +114,31 @@ def extraer_itemid_y_actualizar_precio(diccionario):
             itemid = obtener_asin(value)
             if itemid:
                 print(f"ItemID (ASIN) encontrado: {itemid}")
+                # Mostrar el precio actual de la base de datos
+                precio_actual = diccionario.get('precio', 'No price available')
+                print(f"Precio actual en la DB: {precio_actual}")
+                
                 # Hacer la solicitud a la API de Amazon para obtener el precio
                 precio_actualizado = hacer_solicitud_paapi(itemid)
-                time.sleep(2)
-                if precio_actualizado:
-                    print(f"Actualizando precio: {precio_actualizado}")
-                    diccionario['precio'] = precio_actualizado  # Actualiza el campo 'precio' existente
+                time.sleep(2)  # Pausa de 2 segundos para evitar problemas con la tasa de solicitud
+
+                # Si la respuesta no es "No offers available or item not found", actualizamos el precio
+                if precio_actualizado and precio_actualizado not in ["No offers available or item not found", "No listings available"]:
+                    print(f"Nuevo precio desde la API: {precio_actualizado}")
+                    # Actualizar el campo 'precio' en el diccionario
+                    diccionario['precio'] = precio_actualizado
+                    print(f"Precio actualizado de {precio_actual} a {precio_actualizado}")
             else:
                 print(f"No se encontró un ASIN en la URL: {value}")
 
 # Cargar el archivo JSON
-json_file_path = 'src/data/DBAmazon_actualizado2.json'
+json_file_path = 'src/data/DBAmazon.json'
 with open(json_file_path, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Extraer el itemID y actualizar el precio de las URLs ampliadas
 extraer_itemid_y_actualizar_precio(data)
+
 
 # Guardar el JSON actualizado, reemplazando el archivo original
 with open(json_file_path, 'w', encoding='utf-8') as f:
