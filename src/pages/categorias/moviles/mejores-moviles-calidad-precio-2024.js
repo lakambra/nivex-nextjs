@@ -42,7 +42,7 @@ export default function mejoresMovilesCalidadPrecio() {
                     <h1
                         className={`${fontOswald.className} text-3xl font-bold tracking-wide xl:text-5xl`}
                     >
-                        Los mejores móviles de 2024
+                        Los mejores móviles en relación calidad precio de 2024
                     </h1>
                     <p className="font-bold mt-6 lg:text-lg">
                         Hay móviles de calidad-precio en todos los rangos económicos: desde opciones muy asequibles hasta modelos que ofrecen características premium sin alcanzar precios desorbitados. Estos dispositivos están diseñados para quienes buscan el equilibrio perfecto entre rendimiento y coste, ofreciendo excelentes prestaciones como cámaras competentes, pantallas de buena calidad y autonomía destacable, sin sacrificar el bolsillo. Si en algo coincidimos todos, es en que estos móviles representan las mejores opciones para quienes desean maximizar su inversión, obteniendo más de lo que pagan sin comprometer la experiencia tecnológica.

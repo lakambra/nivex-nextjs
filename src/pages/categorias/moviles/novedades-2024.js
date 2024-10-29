@@ -42,7 +42,7 @@ export default function novedades2024() {
                     <h1
                         className={`${fontOswald.className} text-3xl font-bold tracking-wide xl:text-5xl`}
                     >
-                        Los mejores móviles de 2024
+                        Los mejores móviles plegables de 2024
                     </h1>
                     <p className="font-bold mt-6 lg:text-lg">
                         Hay móviles plegables en todos los precios imaginables: desde opciones más accesibles hasta auténticos topes de gama que superan los 2.000 euros. Estos dispositivos están diseñados para quienes buscan lo mejor en innovación y tecnología, combinando diseño, versatilidad y funcionalidad en un solo dispositivo. Con características avanzadas como pantallas flexibles de alta resolución, sistemas de cámaras de última generación y un rendimiento potente, los móviles plegables ofrecen una experiencia única que redefine el uso del smartphone. Si en algo coincidimos todos, es en que estos móviles representan la vanguardia y el futuro del diseño en el mundo de la tecnología.
