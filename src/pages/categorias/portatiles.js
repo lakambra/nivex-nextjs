@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import ResumenCategoriaGrande from "@/components/ResumenCategoriaGrande";
 import db from "@/data/DB";
+import Heads from "@/components/Heads"
 import { fontLato } from "@/utils/fonts";
 import { fontOswald } from "@/utils/fonts";
 
