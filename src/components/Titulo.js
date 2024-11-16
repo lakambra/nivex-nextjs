@@ -1,15 +1,4 @@
-import Link from "next/link";
-import { JetBrains_Mono } from "next/font/google";
-import { Lato } from "next/font/google";
-import { Oswald } from "next/font/google";
-
-const fontJet = JetBrains_Mono({ subsets: ["latin"] });
-
-const fontLeto = Lato({
-    subsets: ["latin"],
-    weight: ["100", "300", "400", "700", "900"],
-});
-const fontOswald = Oswald({ subsets: ["latin"] });
+import { fontJet } from "@/utils/fonts";
 
 export default function Titulo({
     texto

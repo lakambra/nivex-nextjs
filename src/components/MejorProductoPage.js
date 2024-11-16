@@ -1,14 +1,9 @@
 import Header from "@/components/Header";
 import MovilDetallado from "@/components/MovilDetallado";
 import { JetBrains_Mono } from "next/font/google";
-import { Oswald } from "next/font/google";
+import { fontOswald } from "@/utils/fonts";
 import { Lato } from "next/font/google";
 import Heads from "@/components/Heads";
-
-const fontJet = JetBrains_Mono({ subsets: ["latin"] });
-const fontOswald = Oswald({ subsets: ["latin"] });
-
-
 
 export default function MejorProductoPage({
   articulo,

@@ -1,10 +1,4 @@
-import { Lato } from "next/font/google";
-import Link from "next/link";
-
-const fontLato = Lato({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
-});
+import { fontLato } from "@/utils/fonts";
 
 export default function MovilDetallado({
   producto,

@@ -1,10 +1,4 @@
-import { Lato } from "next/font/google";
 import Head from "next/head";
-
-const fontLato = Lato({
-    subsets: ["latin"],
-    weight: ["100", "300", "400", "700", "900"],
-});
 
 export default function Heads({
     titulo,

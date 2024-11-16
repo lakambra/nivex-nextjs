@@ -1,20 +1,9 @@
-import Link from "next/link";
-import Head from "next/head";
 import Header from "@/components/Header";
-import Breadcrumbs from "@/components/Breadcrumbs";
 import ResumenCategoriaGrande from "@/components/ResumenCategoriaGrande";
-import { Lato } from "next/font/google";
-import { Oswald } from "next/font/google";
 import db from "@/data/DB";
 import Heads from "@/components/Heads"
-
-
-const fontLeto = Lato({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
-});
-const fontOswald = Oswald({ subsets: ["latin"] });
-//console.log(constants.allItems)
+import { fontLato } from "@/utils/fonts";
+import { fontOswald } from "@/utils/fonts";
 
 // Filtrar los objetos que coincidan con la categoría deseada
 const todosLosDatos = [
@@ -32,13 +21,13 @@ export default function Moviles() {
       <Heads
         titulo="Noticias sobre móviles | Nivex - Tecnología y móviles, comparativas y análisis"
         descripcion={
-        `Noticias sobre móviles, análisis y comparativas de los mejores móviles del mercado en 2024 y más allá. Encuentra información sobre las últimas novedades en tecnología móvil.
+          `Noticias sobre móviles, análisis y comparativas de los mejores móviles del mercado en 2024 y más allá. Encuentra información sobre las últimas novedades en tecnología móvil.
         ${datosFiltrados.map(item => item.titulo).join(', ')}`
-                
-  }
+
+        }
       ></Heads>
       <Header />
-      <main className={fontLeto.className}>
+      <main className={fontLato.className}>
         <div className="flex flex-col items-center my-20">
           {/* <h1 className="text-2xl 2xl:text-4xl font-extrabold">Móviles: Análisis y Novedades</h1>
            */}
