@@ -2,9 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { useEffect } from "react";
-import { JetBrains_Mono } from "next/font/google";
-
-const fontJet = JetBrains_Mono({ subsets: ["latin"] });
+import { fontJet } from "@/utils/fonts";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

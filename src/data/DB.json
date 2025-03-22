@@ -3,7 +3,11 @@
         {
             "titulo": "Los mejores móviles que puedes comprar en 2024",
             "linkInterno": "/categorias/moviles",
+<<<<<<< HEAD
             "linkExterno": "/categorias/moviles/mejor-movil-de-2024-test",
+=======
+            "linkExterno": "/categorias/moviles/mejor-movil-de-2024",
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
             "categoria": "MÓVILES",
             "descripcion": "Ya sea un móvil de última generación o una opción más asequible. Te mostramos lo mejor de Apple, Samsung, Google y más. ",
             "imagen": "https://images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-z-fold6/buy/colour-selection/Color-Selection_White_MO.png?imbypass=true"

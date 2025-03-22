@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Lato } from "next/font/google";
 import Head from "next/head";
 
@@ -6,6 +7,10 @@ const fontLato = Lato({
     weight: ["100", "300", "400", "700", "900"],
 });
 
+=======
+import Head from "next/head";
+
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
 export default function Heads({
     titulo,
     descripcion

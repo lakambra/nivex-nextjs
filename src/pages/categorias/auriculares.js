@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Link from "next/link";
 import Head from "next/head";
 import Header from "@/components/Header";
@@ -13,6 +14,15 @@ const fontLeto = Lato({
     weight: ["100", "300", "400", "700", "900"],
 });
 const fontOswald = Oswald({ subsets: ["latin"] });
+=======
+import Header from "@/components/Header";
+import ResumenCategoriaGrande from "@/components/ResumenCategoriaGrande";
+import db from "@/data/DB";
+import Heads from "@/components/Heads";
+import { fontLato } from "@/utils/fonts";
+import { fontOswald } from "@/utils/fonts";
+
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
 const todosLosDatos = [
     db.calidadPrecio,
     db.masVisto,
@@ -35,7 +45,11 @@ export default function Auriculares() {
             />
 
             <Header />
+<<<<<<< HEAD
             <main className={fontLeto.className}>
+=======
+            <main className={fontLato.className}>
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
                 <div className="flex flex-col items-center mt-10">
                     {/* <h1 className="text-2xl 2xl:text-4xl font-extrabold">Móviles: Análisis y Novedades</h1>
            */}

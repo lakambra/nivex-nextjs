@@ -30,13 +30,21 @@ export default function novedades2024() {
             <Header />
             <main className="mt-14">
                 <div className={`${fontJet.className} px-5 xl:max-w-5xl xl:mx-auto`}>
+<<<<<<< HEAD
                     <span className="text-xs font-bold p-[5px] bg-black text-white tracking-wide">
+=======
+                    {/* <span className="text-xs font-bold p-[5px] bg-black text-white tracking-wide">
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
                         SHARON LEMCA-VINCERE
                     </span>
                     <div className="flex flex-row gap-5 mt-2 tracking-wider">
                         <span className="text-xs font-bold">SCIENCE</span>
                         <span className="text-xs font-bold">JUN 29, 2024 8:08 AM</span>
+<<<<<<< HEAD
                     </div>
+=======
+                    </div> */}
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
                 </div>
                 <div className="mt-4 px-5 xl:max-w-5xl xl:mx-auto">
                     <h1

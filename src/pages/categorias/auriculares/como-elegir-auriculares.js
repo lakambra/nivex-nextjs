@@ -1,6 +1,9 @@
 import Header from "@/components/Header";
+<<<<<<< HEAD
 import Breadcrumbs from "@/components/Breadcrumbs";
 import MovilDetallado from "@/components/MovilDetallado";
+=======
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
 import { JetBrains_Mono } from "next/font/google";
 import { Oswald } from "next/font/google";
 import { Lato } from "next/font/google";

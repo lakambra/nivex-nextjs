@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Lato } from "next/font/google";
 import Link from "next/link";
 
@@ -5,6 +6,9 @@ const fontLato = Lato({
   subsets: ["latin"],
   weight: ["100", "300", "400", "700", "900"],
 });
+=======
+import { fontLato } from "@/utils/fonts";
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
 
 export default function MovilDetallado({
   producto,

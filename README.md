@@ -1,40 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amazon Product Recommendation Website (Next.js)
 
-## Getting Started
+Este proyecto es una página web construida con **Next.js** y desplegada en **Vercel**. El objetivo principal es proporcionar recomendaciones de productos de **Amazon** en diversas categorías tecnológicas, como **móviles**, **portátiles**, **auriculares**, **wearables**, y más, utilizando el programa de afiliados de Amazon.
 
-First, run the development server:
+### 🚀 **Características**:
+- **Recomendaciones de productos**: Se muestran productos recomendados de diversas categorías de tecnología.
+- **Páginas específicas por categoría**: Cada página está dedicada a una categoría de productos, como **smartphones**, **laptops**, **audio**, etc.
+- **Enlaces de afiliado**: Cada recomendación contiene enlaces de afiliado de Amazon, lo que permite generar ingresos a través de las compras realizadas a través de estos enlaces.
+- **Desplegado en Vercel**: El sitio está alojado y optimizado para producción en **Vercel**, garantizando tiempos de carga rápidos y alta disponibilidad.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### ⚙️ **Tecnologías Utilizadas**:
+- **Next.js**: Framework de React para la construcción del sitio web.
+- **React**: Librería de JavaScript para construir la interfaz de usuario.
+- **Vercel**: Plataforma de despliegue para aplicaciones front-end.
+- **Tailwind CSS**: Framework de utilidades para crear interfaces responsivas y personalizables de forma eficiente.
+- **Amazon Affiliate Program**: Integración con el programa de afiliados para monetizar el sitio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📌 **Estado del Proyecto**:
+Este proyecto está actualmente **en fase de prueba** (beta). Aunque ya está desplegado y accesible en producción, aún pueden haber mejoras en la funcionalidad y el diseño, y se están evaluando nuevos productos y categorías para incluir.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 🔗 **Despliegue en Vercel**:
+El proyecto está desplegado en Vercel. Puedes acceder a la versión en vivo en el siguiente enlace:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Visitar la página en producción](https://nivex.vercel.app)
 
-## Learn More
+### 📈 **Próximos pasos**:
+- Mejorar la UX/UI del sitio.
+- Ampliar las categorías de productos recomendados.
+- Implementar filtrado y búsqueda para una experiencia de usuario más rica.
+- Optimizar el SEO y el rendimiento de la página.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### ⚠️ **Aviso**:
+Este proyecto aún está en **fase de prueba** y puede estar sujeto a cambios en el futuro. 

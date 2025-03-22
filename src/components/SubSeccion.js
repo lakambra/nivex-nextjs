@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Header from "@/components/Header";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import MovilDetallado from "@/components/MovilDetallado";
@@ -13,6 +14,10 @@ const fontLato = Lato({
 const fontJet = JetBrains_Mono({ subsets: ["latin"] });
 const fontOswald = Oswald({ subsets: ["latin"] });
 
+=======
+import ProductoAmazon from "@/components/ProductoAmazon";
+
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
 export default function SubSeccion({
     titulo,
     descripcion,

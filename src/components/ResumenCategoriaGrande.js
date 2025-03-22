@@ -1,4 +1,5 @@
 import Link from "next/link";
+<<<<<<< HEAD
 import { JetBrains_Mono } from "next/font/google";
 import { Lato } from "next/font/google";
 import { Oswald } from "next/font/google";
@@ -10,6 +11,10 @@ const fontLeto = Lato({
     weight: ["100", "300", "400", "700", "900"],
 });
 const fontOswald = Oswald({ subsets: ["latin"] });
+=======
+import { fontJet } from "@/utils/fonts";
+import { fontOswald } from "@/utils/fonts";
+>>>>>>> 79edc57f63042548b21fdb0001b4845c1417f56d
 
 export default function ResumenCategoria({
     titulo,
